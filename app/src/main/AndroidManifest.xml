@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".YoutubePlayer"
+            android:exported="false" />
+        <activity
             android:name=".admissionprocess"
             android:exported="false" />
         <activity

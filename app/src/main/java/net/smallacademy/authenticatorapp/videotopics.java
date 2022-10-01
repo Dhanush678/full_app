@@ -12,7 +12,6 @@ import android.widget.Toast;
 public class videotopics extends AppCompatActivity {
     TextView textView;
     TextView button1,button2,button3,button4,button5,button6,button7,button8,button9,button10,button11,button12,button13,button14,button15;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,8 +32,6 @@ public class videotopics extends AppCompatActivity {
         button13=findViewById(R.id.button_t13);
         button14=findViewById(R.id.button_t14);
         button15=findViewById(R.id.button_t15);
-
-
 
 
         String h1 = getIntent().getStringExtra("heading1");
@@ -70,11 +67,843 @@ public class videotopics extends AppCompatActivity {
         String t15 = getIntent().getStringExtra("topic15");
         button15.setText(t15);
 
-    }
-    public void video1(View view) {
-        Intent intent = new Intent(getApplicationContext(), webview1.class);
-        intent.putExtra("video_id","https://www.careers360.com/colleges/university-visvesvaraya-college-of-engineering-bangalore/amp");
-        startActivity(intent);
-    }
+        button1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String m1 = getIntent().getStringExtra("heading1");
+                if(m1.contentEquals("First Year PUC Mathematics")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","AAmIVlSxBcA");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("First Year PUC Physics")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("First Year PUC Chemistry")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("First Year PUC Biology")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("Second Year PUC Mathematics")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("Second Year PUC Physics")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("Second Year PUC Chemistry")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("Second Year PUC Biology")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
 
+            }
+        });
+
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String m1 = getIntent().getStringExtra("heading1");
+                if(m1.contentEquals("First Year PUC Mathematics")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","AAmIVlSxBcA");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("First Year PUC Physics")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("First Year PUC Chemistry")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("First Year PUC Biology")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("Second Year PUC Mathematics")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("Second Year PUC Physics")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("Second Year PUC Chemistry")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("Second Year PUC Biology")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+
+            }
+        });
+        button3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String m1 = getIntent().getStringExtra("heading1");
+                if(m1.contentEquals("First Year PUC Mathematics")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","AAmIVlSxBcA");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("First Year PUC Physics")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("First Year PUC Chemistry")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("First Year PUC Biology")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("Second Year PUC Mathematics")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("Second Year PUC Physics")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("Second Year PUC Chemistry")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("Second Year PUC Biology")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+
+            }
+        });
+
+        button4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String m1 = getIntent().getStringExtra("heading1");
+                if(m1.contentEquals("First Year PUC Mathematics")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","AAmIVlSxBcA");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("First Year PUC Physics")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("First Year PUC Chemistry")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("First Year PUC Biology")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("Second Year PUC Mathematics")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("Second Year PUC Physics")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("Second Year PUC Chemistry")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("Second Year PUC Biology")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+
+            }
+        });
+
+        button5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String m1 = getIntent().getStringExtra("heading1");
+                if(m1.contentEquals("First Year PUC Mathematics")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","AAmIVlSxBcA");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("First Year PUC Physics")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("First Year PUC Chemistry")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("First Year PUC Biology")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("Second Year PUC Mathematics")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("Second Year PUC Physics")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("Second Year PUC Chemistry")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("Second Year PUC Biology")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+
+            }
+        });
+
+        button6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String m1 = getIntent().getStringExtra("heading1");
+                if(m1.contentEquals("First Year PUC Mathematics")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","AAmIVlSxBcA");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("First Year PUC Physics")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("First Year PUC Chemistry")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("First Year PUC Biology")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("Second Year PUC Mathematics")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("Second Year PUC Physics")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("Second Year PUC Chemistry")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("Second Year PUC Biology")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+
+            }
+        });
+
+        button7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String m1 = getIntent().getStringExtra("heading1");
+                if(m1.contentEquals("First Year PUC Mathematics")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","AAmIVlSxBcA");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("First Year PUC Physics")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("First Year PUC Chemistry")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("First Year PUC Biology")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("Second Year PUC Mathematics")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("Second Year PUC Physics")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("Second Year PUC Chemistry")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("Second Year PUC Biology")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+
+            }
+        });
+
+        button8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String m1 = getIntent().getStringExtra("heading1");
+                if(m1.contentEquals("First Year PUC Mathematics")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","AAmIVlSxBcA");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("First Year PUC Physics")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("First Year PUC Chemistry")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("First Year PUC Biology")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("Second Year PUC Mathematics")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("Second Year PUC Physics")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("Second Year PUC Chemistry")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("Second Year PUC Biology")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+
+            }
+        });
+
+        button9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String m1 = getIntent().getStringExtra("heading1");
+                if(m1.contentEquals("First Year PUC Mathematics")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","AAmIVlSxBcA");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("First Year PUC Physics")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("First Year PUC Chemistry")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("First Year PUC Biology")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("Second Year PUC Mathematics")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("Second Year PUC Physics")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("Second Year PUC Chemistry")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("Second Year PUC Biology")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+
+            }
+        });
+
+        button10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String m1 = getIntent().getStringExtra("heading1");
+                if(m1.contentEquals("First Year PUC Mathematics")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","AAmIVlSxBcA");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("First Year PUC Physics")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("First Year PUC Chemistry")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("First Year PUC Biology")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("Second Year PUC Mathematics")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("Second Year PUC Physics")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("Second Year PUC Chemistry")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("Second Year PUC Biology")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+
+            }
+        });
+
+        button11.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String m1 = getIntent().getStringExtra("heading1");
+                if(m1.contentEquals("First Year PUC Mathematics")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","AAmIVlSxBcA");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("First Year PUC Physics")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("First Year PUC Chemistry")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("First Year PUC Biology")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("Second Year PUC Mathematics")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("Second Year PUC Physics")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("Second Year PUC Chemistry")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("Second Year PUC Biology")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+
+            }
+        });
+        button12.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String m1 = getIntent().getStringExtra("heading1");
+                if(m1.contentEquals("First Year PUC Mathematics")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","AAmIVlSxBcA");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("First Year PUC Physics")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("First Year PUC Chemistry")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("First Year PUC Biology")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("Second Year PUC Mathematics")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("Second Year PUC Physics")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("Second Year PUC Chemistry")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("Second Year PUC Biology")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+
+            }
+        });
+
+        button13.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String m1 = getIntent().getStringExtra("heading1");
+                if(m1.contentEquals("First Year PUC Mathematics")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","AAmIVlSxBcA");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("First Year PUC Physics")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("First Year PUC Chemistry")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("First Year PUC Biology")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("Second Year PUC Mathematics")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("Second Year PUC Physics")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("Second Year PUC Chemistry")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("Second Year PUC Biology")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+
+            }
+        });
+
+        button14.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String m1 = getIntent().getStringExtra("heading1");
+                if(m1.contentEquals("First Year PUC Mathematics")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","AAmIVlSxBcA");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("First Year PUC Physics")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("First Year PUC Chemistry")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("First Year PUC Biology")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("Second Year PUC Mathematics")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("Second Year PUC Physics")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("Second Year PUC Chemistry")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("Second Year PUC Biology")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+
+            }
+        });
+
+        button15.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String m1 = getIntent().getStringExtra("heading1");
+                if(m1.contentEquals("First Year PUC Mathematics")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","AAmIVlSxBcA");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("First Year PUC Physics")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("First Year PUC Chemistry")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("First Year PUC Biology")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("Second Year PUC Mathematics")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("Second Year PUC Physics")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("Second Year PUC Chemistry")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+                if(m1.contentEquals("Second Year PUC Biology")){
+                    Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
+                    intent1.putExtra("video_id","");
+                    startActivity(intent1);
+                    finish();
+                }
+
+            }
+        });
+
+    }
 }
