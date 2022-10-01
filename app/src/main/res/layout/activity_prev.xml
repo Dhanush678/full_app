@@ -1,0 +1,353 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back31_"
+    tools:context=".prev"
+    tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:background="#833F51B5">
+
+            <ImageView
+                android:id="@+id/back2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:src="@drawable/ic_baseline_arrow_back_24" />
+
+            <TextView
+                android:layout_width="329dp"
+                android:layout_height="55dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="43dp"
+                android:layout_marginEnd="19dp"
+                android:fontFamily="@font/aclonica"
+                android:gravity="center_vertical"
+                android:text="Previous Year Question Papers"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/button1"
+                        android:layout_width="125dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:background="@drawable/btn_bg"
+                        android:onClick="openactivity22"
+                        android:padding="10dp"
+                        android:text="2022 year papers"
+                        app:cornerRadius="800dp" />
+
+                    <Button
+                        android:id="@+id/button2"
+                        android:layout_width="125dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginRight="40dp"
+                        android:layout_toEndOf="@+id/button1"
+                        android:background="@drawable/btn_bg"
+                        android:onClick="openactivity21"
+                        android:padding="10dp"
+                        android:text="2021 year papers" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp">
+
+                    <Button
+                        android:id="@+id/button3"
+                        android:layout_width="125dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:background="@drawable/btn_bg"
+                        android:onClick="openactivity20"
+                        android:padding="10dp"
+                        android:text="2020 year papers" />
+
+                    <Button
+                        android:id="@+id/button4"
+                        android:layout_width="125dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginRight="40dp"
+                        android:layout_toEndOf="@+id/button3"
+                        android:background="@drawable/btn_bg"
+                        android:onClick="openactivity19"
+                        android:padding="10dp"
+                        android:text="2019 year papers"
+                        app:cornerRadius="800dp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp">
+
+                    <Button
+                        android:id="@+id/button5"
+                        android:layout_width="125dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:background="@drawable/btn_bg"
+                        android:onClick="openactivity18"
+                        android:padding="10dp"
+                        android:text="2018 year papers" />
+
+                    <Button
+                        android:id="@+id/button6"
+                        android:layout_width="125dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginRight="40dp"
+                        android:layout_toEndOf="@+id/button5"
+                        android:background="@drawable/btn_bg"
+                        android:onClick="openactivity17"
+                        android:padding="10dp"
+                        android:text="2017 year papers" />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp">
+
+                    <Button
+                        android:id="@+id/button7"
+                        android:layout_width="125dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:background="@drawable/btn_bg"
+                        android:onClick="openactivity16"
+                        android:padding="10dp"
+                        android:text="2016 year papers" />
+
+                    <Button
+                        android:id="@+id/button8"
+                        android:layout_width="125dp"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginStart="40dp"
+                        android:layout_marginRight="40dp"
+                        android:layout_toEndOf="@+id/button7"
+                        android:background="@drawable/btn_bg"
+                        android:onClick="openactivity15"
+                        android:padding="10dp"
+                        android:text="2015 year papers" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp">
+
+                    <Button
+                        android:id="@+id/button9"
+                        android:layout_width="125dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:background="@drawable/btn_bg"
+                        android:onClick="openactivity14"
+                        android:padding="10dp"
+                        android:text="2014 year papers" />
+
+                    <Button
+                        android:id="@+id/button10"
+                        android:layout_width="125dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginRight="40dp"
+                        android:layout_toEndOf="@+id/button9"
+                        android:background="@drawable/btn_bg"
+                        android:onClick="openactivity13"
+                        android:padding="10dp"
+                        android:text="2013 year papers" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp">
+
+                    <Button
+                        android:id="@+id/button11"
+                        android:layout_width="125dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:background="@drawable/btn_bg"
+                        android:onClick="openactivity12"
+                        android:padding="10dp"
+                        android:text="2012 year papers" />
+
+                    <Button
+                        android:id="@+id/button12"
+                        android:layout_width="125dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginRight="40dp"
+                        android:layout_toEndOf="@+id/button11"
+                        android:background="@drawable/btn_bg"
+                        android:onClick="openactivity11"
+                        android:padding="10dp"
+                        android:text="2011 year papers" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp">
+
+
+                    <Button
+                        android:id="@+id/button13"
+                        android:layout_width="125dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:background="@drawable/btn_bg"
+                        android:onClick="openactivity10"
+                        android:padding="10dp"
+                        android:text="2010 year papers" />
+
+                    <Button
+                        android:id="@+id/button14"
+                        android:layout_width="125dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginRight="40dp"
+                        android:layout_toEndOf="@+id/button13"
+                        android:background="@drawable/btn_bg"
+                        android:onClick="openactivity09"
+                        android:padding="10dp"
+                        android:text="2009 year papers" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp">
+
+                    <Button
+                        android:id="@+id/button15"
+                        android:layout_width="125dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:background="@drawable/btn_bg"
+                        android:onClick="openactivity08"
+                        android:padding="10dp"
+                        android:text="2008 year papers" />
+
+                    <Button
+                        android:id="@+id/button16"
+                        android:layout_width="125dp"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginStart="40dp"
+                        android:layout_marginRight="40dp"
+                        android:layout_toEndOf="@+id/button15"
+                        android:background="@drawable/btn_bg"
+                        android:onClick="openactivity07"
+                        android:padding="10dp"
+                        android:text="2007 year papers" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp">
+
+                    <Button
+                        android:id="@+id/button17"
+                        android:layout_width="125dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:background="@drawable/btn_bg"
+                        android:onClick="openactivity06"
+                        android:padding="10dp"
+                        android:text="2006 year papers" />
+
+                    <Button
+                        android:id="@+id/button18"
+                        android:layout_width="125dp"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginStart="40dp"
+                        android:layout_marginRight="40dp"
+                        android:layout_toEndOf="@+id/button17"
+                        android:background="@drawable/btn_bg"
+                        android:onClick="openactivity05"
+                        android:padding="10dp"
+                        android:text="2005 year papers" />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp">
+
+                    <Button
+                        android:id="@+id/button19"
+                        android:layout_width="125dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:background="@drawable/btn_bg"
+                        android:onClick="openactivity04"
+                        android:padding="10dp"
+                        android:text="2004 year papers" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

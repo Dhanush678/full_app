@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">K-CET Guide</string>
+    <string name="menu_drawer_open">Drawer Open</string>
+    <string name="menu_drawer_close">Drawer Close</string>
+    <string name="data_1">KCET College Predictor 2022: Key Points
+1) All related courses are summed in a common category to make it easy to search for common engineering courses in a college.
+2) Round 1, round 2, round 3 data is available since 2014 till 2021 (most latest) for help in KCET admissions 2022.
+3) Special Category KCET cutoff (closing ranks) are currently available for 2021 and we are working on it to present for all years and rounds.
+4) You will not see a course if there is no admission taken in that college and course during that year and round. Just change the round or year in the form to check if it’s available in other years.
+5) For individual colleges cutoffs, course or college codes make use of fast search option provided.</string>
+</resources>

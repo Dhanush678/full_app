@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#8E24AA"
+
+
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/allerta"
+
+            android:gravity="center"
+            android:padding="10dp"
+
+            android:text="All College Information"
+
+            android:textColor="#FBF6F6"
+            android:textSize="25sp"
+
+            android:textStyle="normal|bold">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/abeezee_italic"
+
+            android:gravity="center"
+            android:padding="20dp"
+
+            android:text="Detailed information of every Engineering College you can get into through KCET"
+            android:textColor="#FBF6F6"
+            android:textSize="18sp"
+
+            android:textStyle="normal|bold">
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:background="@drawable/dsfsd"
+            android:layout_gravity="center">
+
+        </ImageView>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25sp"
+            android:layout_marginTop="40sp"
+
+            android:layout_marginEnd="25sp"
+            android:fontFamily="@font/abeezee_italic"
+
+            android:gravity="center"
+            android:text="we have spent 100's hours to carefully curate and organize the details of all College,CET Codes,offered courses,Previous year ranking papers and more..."
+            android:textColor="#FBF6F6"
+            android:textSize="18sp"
+
+
+            android:textStyle="normal|bold">
+
+        </TextView>
+
+
+    </LinearLayout>
+</LinearLayout>

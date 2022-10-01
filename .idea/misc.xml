@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/HP/Desktop/firebase-authentication-android/app/src/main/res/drawable/border.xml" value="0.151" />
+        <entry key="..\:/Users/HP/Desktop/firebase-authentication-android/app/src/main/res/drawable/rectanle.xml" value="0.151" />
+        <entry key="..\:/Users/HP/Desktop/firebase-authentication-android/app/src/main/res/layout/activity_college_list.xml" value="0.1308876811594203" />
+        <entry key="..\:/Users/HP/Desktop/firebase-authentication-android/app/src/main/res/layout/activity_details.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/HP/Desktop/firebase-authentication-android/app/src/main/res/layout/activity_edit_profile.xml" value="0.1308876811594203" />
+        <entry key="..\:/Users/HP/Desktop/firebase-authentication-android/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Users/HP/Desktop/firebase-authentication-android/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/HP/Desktop/firebase-authentication-android/app/src/main/res/layout/activity_main2.xml" value="0.22" />
+        <entry key="..\:/Users/HP/Desktop/firebase-authentication-android/app/src/main/res/layout/activity_prev.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/HP/Desktop/firebase-authentication-android/app/src/main/res/layout/activity_rank_predict.xml" value="0.1308876811594203" />
+        <entry key="..\:/Users/HP/Desktop/firebase-authentication-android/app/src/main/res/layout/activity_register.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/HP/Desktop/firebase-authentication-android/app/src/main/res/layout/activity_subjects.xml" value="0.1308876811594203" />
+        <entry key="..\:/Users/HP/Desktop/firebase-authentication-android/app/src/main/res/layout/activity_webview.xml" value="0.1308876811594203" />
+        <entry key="..\:/Users/HP/Desktop/firebase-authentication-android/app/src/main/res/menu/menu.xml" value="0.1" />
+        <entry key="..\:/Users/HP/Desktop/setup/KCET_APP/app/src/main/res/layout/activity_intro.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/HP/Desktop/setup/KCET_APP/app/src/main/res/layout/activity_splash.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/Desktop/setup/KCET_APP/app/src/main/res/layout/first_intro.xml" value="0.1" />
+        <entry key="..\:/Users/HP/Desktop/setup/KCET_APP/app/src/main/res/layout/second_intro.xml" value="0.22" />
+        <entry key="..\:/Users/HP/Desktop/setup/KCET_APP/app/src/main/res/layout/third_intro.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/HP/Dropbox/PC/Desktop/New folder/KCET-college-guide/app/src/main/res/layout/activity_college_list.xml" value="0.1" />
+        <entry key="..\:/Users/HP/Dropbox/PC/Desktop/New folder/KCET-college-guide/app/src/main/res/layout/activity_details.xml" value="0.1" />
+        <entry key="..\:/Users/HP/Dropbox/PC/Desktop/New folder/KCET-college-guide/app/src/main/res/layout/activity_drawer_base.xml" value="0.1111111111111111" />
+        <entry key="..\:/Users/HP/Dropbox/PC/Desktop/New folder/KCET-college-guide/app/src/main/res/layout/activity_edit_profile.xml" value="0.10507246376811594" />
+        <entry key="..\:/Users/HP/Dropbox/PC/Desktop/New folder/KCET-college-guide/app/src/main/res/layout/activity_instructions.xml" value="0.10507246376811594" />
+        <entry key="..\:/Users/HP/Dropbox/PC/Desktop/New folder/KCET-college-guide/app/src/main/res/layout/activity_login.xml" value="0.10507246376811594" />
+        <entry key="..\:/Users/HP/Dropbox/PC/Desktop/New folder/KCET-college-guide/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/HP/Dropbox/PC/Desktop/New folder/KCET-college-guide/app/src/main/res/layout/activity_main2.xml" value="0.1" />
+        <entry key="..\:/Users/HP/Dropbox/PC/Desktop/New folder/KCET-college-guide/app/src/main/res/layout/activity_predictor.xml" value="0.13179347826086957" />
+        <entry key="..\:/Users/HP/Dropbox/PC/Desktop/New folder/KCET-college-guide/app/src/main/res/layout/activity_prev.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/Dropbox/PC/Desktop/New folder/KCET-college-guide/app/src/main/res/layout/activity_puc.xml" value="0.1" />
+        <entry key="..\:/Users/HP/Dropbox/PC/Desktop/New folder/KCET-college-guide/app/src/main/res/layout/activity_rank_predict.xml" value="0.10507246376811594" />
+        <entry key="..\:/Users/HP/Dropbox/PC/Desktop/New folder/KCET-college-guide/app/src/main/res/layout/activity_required_documents.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/Dropbox/PC/Desktop/New folder/KCET-college-guide/app/src/main/res/layout/content_layout.xml" value="0.21052631578947367" />
+        <entry key="..\:/Users/HP/Dropbox/PC/Desktop/New folder/KCET-college-guide/app/src/main/res/layout/drawer.xml" value="0.1" />
+        <entry key="..\:/Users/HP/Dropbox/PC/Desktop/New folder/KCET-college-guide/app/src/main/res/layout/main_drawer_header.xml" value="0.1" />
+        <entry key="..\:/Users/HP/Dropbox/PC/Desktop/New folder/KCET-college-guide/app/src/main/res/menu/navmenu.xml" value="0.1" />
+        <entry key="..\:/Users/cchan/Downloads/KCET_APP-remote/app/src/main/res/font/.xml" value="0.2777777777777778" />
+        <entry key="..\:/Users/cchan/Downloads/KCET_APP-remote/app/src/main/res/font/abeezee_italic.xml" value="0.2777777777777778" />
+        <entry key="..\:/Users/cchan/Downloads/KCET_APP-remote/app/src/main/res/font/aclonica.xml" value="0.2777777777777778" />
+        <entry key="..\:/Users/cchan/Downloads/KCET_APP-remote/app/src/main/res/font/allerta.xml" value="0.2777777777777778" />
+        <entry key="..\:/Users/cchan/Downloads/KCET_APP-remote/app/src/main/res/layout/activity_aboutkcet2.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/cchan/Downloads/KCET_APP-remote/app/src/main/res/layout/activity_admissionprocess.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/cchan/Downloads/KCET_APP-remote/app/src/main/res/layout/activity_college_list.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/cchan/Downloads/KCET_APP-remote/app/src/main/res/layout/activity_details.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/cchan/Downloads/KCET_APP-remote/app/src/main/res/layout/activity_drawer_base.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/cchan/Downloads/KCET_APP-remote/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/cchan/Downloads/KCET_APP-remote/app/src/main/res/layout/activity_main2.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/cchan/Downloads/KCET_APP-remote/app/src/main/res/layout/activity_puc.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/cchan/Downloads/KCET_APP-remote/app/src/main/res/layout/activity_splash.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/cchan/Downloads/KCET_APP-remote/app/src/main/res/layout/activity_videotopics.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/cchan/Downloads/KCET_APP-remote/app/src/main/res/layout/activity_webview.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/cchan/Downloads/KCET_APP-remote/app/src/main/res/layout/activity_webview1.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/cchan/Downloads/KCET_APP-remote/app/src/main/res/layout/content_layout.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/cchan/Downloads/KCET_APP-remote/app/src/main/res/layout/first_intro.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/cchan/Downloads/KCET_APP-remote/app/src/main/res/layout/second_intro.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/cchan/Downloads/KCET_APP-remote/app/src/main/res/layout/third_intro.xml" value="0.22826086956521738" />
+        <entry key="..\:/proj_16_3/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1295" />
+        <entry key="..\:/proj_16_3/app/src/main/res/drawable-v24/next_btn_shape.xml" value="0.1" />
+        <entry key="..\:/proj_16_3/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1295" />
+        <entry key="..\:/proj_16_3/app/src/main/res/layout/activity_college_list.xml" value="0.20863616930312098" />
+        <entry key="..\:/proj_16_3/app/src/main/res/layout/activity_details.xml" value="0.25416666666666665" />
+        <entry key="..\:/proj_16_3/app/src/main/res/layout/activity_edit_profile.xml" value="0.25416666666666665" />
+        <entry key="..\:/proj_16_3/app/src/main/res/layout/activity_instructions.xml" value="0.17708333333333334" />
+        <entry key="..\:/proj_16_3/app/src/main/res/layout/activity_main.xml" value="0.17708333333333334" />
+        <entry key="..\:/proj_16_3/app/src/main/res/layout/activity_main2.xml" value="0.17708333333333334" />
+        <entry key="..\:/proj_16_3/app/src/main/res/layout/activity_mocktest1.xml" value="0.22826086956521738" />
+        <entry key="..\:/proj_16_3/app/src/main/res/layout/activity_mocktest2.xml" value="0.22826086956521738" />
+        <entry key="..\:/proj_16_3/app/src/main/res/layout/activity_mocktest3.xml" value="0.22826086956521738" />
+        <entry key="..\:/proj_16_3/app/src/main/res/layout/activity_predictor.xml" value="0.17708333333333334" />
+        <entry key="..\:/proj_16_3/app/src/main/res/layout/activity_prev.xml" value="0.17708333333333334" />
+        <entry key="..\:/proj_16_3/app/src/main/res/layout/activity_puc.xml" value="0.24547101449275363" />
+        <entry key="..\:/proj_16_3/app/src/main/res/layout/activity_puc12.xml" value="0.24010416666666667" />
+        <entry key="..\:/proj_16_3/app/src/main/res/layout/activity_rank_predict.xml" value="0.17708333333333334" />
+        <entry key="..\:/proj_16_3/app/src/main/res/layout/activity_required_documents.xml" value="0.22826086956521738" />
+        <entry key="..\:/proj_16_3/app/src/main/res/layout/activity_splash.xml" value="0.17708333333333334" />
+        <entry key="..\:/proj_16_3/app/src/main/res/layout/activity_subjects.xml" value="0.17708333333333334" />
+        <entry key="..\:/proj_16_3/app/src/main/res/layout/activity_subjects1.xml" value="0.24547101449275363" />
+        <entry key="..\:/proj_16_3/app/src/main/res/layout/activity_videoplayer.xml" value="0.22826086956521738" />
+        <entry key="..\:/proj_16_3/app/src/main/res/layout/activity_videoplayerpage.xml" value="0.22826086956521738" />
+        <entry key="..\:/proj_16_3/app/src/main/res/layout/activity_videotopics.xml" value="0.24547101449275363" />
+        <entry key="..\:/proj_16_3/app/src/main/res/layout/activity_webview.xml" value="0.17708333333333334" />
+        <entry key="..\:/proj_16_3/app/src/main/res/layout/activity_webview1.xml" value="0.20863616930312098" />
+        <entry key="..\:/proj_16_3/app/src/main/res/layout/activity_youplayer.xml" value="0.10677083333333333" />
+        <entry key="..\:/proj_16_3/app/src/main/res/layout/activity_youtube.xml" value="0.22826086956521738" />
+        <entry key="..\:/proj_16_3/app/src/main/res/layout/activity_youtubeplayer.xml" value="0.22826086956521738" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

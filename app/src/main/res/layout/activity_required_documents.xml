@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back31_"
+    tools:context=".requiredDocuments"
+    tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+        android:background="@drawable/back31_">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:background="#833F51B5"
+            android:backgroundTint="#833F51B5">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="63dp"
+                android:layout_marginEnd="19dp"
+                android:layout_marginBottom="15dp"
+                android:fontFamily="@font/aclonica"
+                android:gravity="center_vertical"
+                android:text="Required Documents"
+                android:textAllCaps="true"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/back11"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+
+
+
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="1dp"
+
+                android:layout_marginBottom="-1dp"
+
+
+                android:src="@drawable/ic_baseline_arrow_back_24">
+
+            </ImageView>
+
+
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginEnd="25dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="15dp">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginEnd="15dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="20dp"
+                            android:background="@drawable/rectanle"
+                            android:padding="10dp"
+                            android:text="Must-required Documents"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:textStyle="bold">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginTop="95dp"
+                            android:text="The final print out of the CET-2020 Online Application Form (final edited copy, in case of editing of application)."
+                            android:textColor="#000000"
+                            android:textSize="16dp"></TextView>
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginTop="205dp"
+                            android:text="'CET-2020' Admission Ticket."
+                            android:textColor="#000000"
+                            android:textSize="16dp">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="250dp"
+                            android:paddingStart="15dp"
+                            android:text="SSLC/10th Standard Marks Card."
+                            android:textColor="#000000"
+                            android:textSize="16dp">
+
+                        </TextView>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="290dp"
+                            android:textColor="#000000"
+                            android:textSize="16dp"
+                            android:paddingStart="15dp"
+
+
+                            android:text="2nd PUC/12th Standard Marks Card.">
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="330dp"
+                            android:paddingStart="15dp"
+                            android:text="# If a candidate has not received the original marks card of Qualifying Examination for 2020 from the concerned boards, then the candidate should obtain the signature of the Principal of the institution where he/ she has passed 2nd PU / 12th Standard examination on the provisional marks card."
+                            android:textColor="#000000"
+                            android:textSize="16dp"></TextView>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="480dp"
+                            android:textColor="#000000"
+                            android:textSize="16dp"
+                            android:paddingStart="15dp"
+                            android:text="# Internet downloaded marks statement printout will not be accepted.">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="530dp"
+                            android:paddingStart="15dp"
+                            android:text="SEVEN Years Study Certificate counter signed by the concerned BEO / DDPI."
+                            android:textColor="#000000"
+
+
+                            android:textSize="16dp"></TextView>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="580dp"
+                            android:textColor="#000000"
+                            android:textSize="16dp"
+                            android:paddingStart="15dp"
+
+
+                            android:text="#Study Certificate to show that the candidate has studied in Karnataka for a minimum period of SEVEN years from 1st standard to 12th standard or qualifying examination issued by Head of the institution including either SSLC/10th Standard or 2nd PUC/12th Standard.">
+                        </TextView>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="730dp"
+                            android:textColor="#000000"
+                            android:textSize="16dp"
+                            android:paddingStart="15dp"
+                            android:paddingBottom="15dp"
+
+
+                            android:text="#Further, School study certificates should be countersigned by the concerned Block Educational Officer (BEO)/Deputy Director of Public Instructions (DDPI) COMPULSORILY in the proforma prescribed in the following pages."     >
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="870dp"
+                            android:textColor="#000000"
+                            android:textSize="16dp"
+                            android:paddingStart="15dp"
+                            android:paddingBottom="15dp"
+
+
+                            android:text="# Counter signature is not required for CBSE / CISCE study certificate."     >
+
+                        </TextView>
+                    </RelativeLayout>
+
+
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginEnd="25dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="15dp">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginEnd="15dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="20dp"
+                            android:background="@drawable/rectanle"
+                            android:padding="10dp"
+                            android:text="Only-if-applicable Documents"
+                            android:textColor="#000000"
+                            android:textSize="20dp"
+                            android:textStyle="bold">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="85dp"
+                            android:paddingStart="15dp"
+                            android:text="Income Certificate: All candidates including General Merit candidates are eligible for Supernumerary quota seats if their annual income is less than Rs.8.00 Lakhs."
+                            android:textColor="#000000"
+                            android:textSize="16dp"></TextView>
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginTop="185dp"
+                            android:text="# The candidates who claim seat under Supernumerary Quota will have to obtain an income certificate from the concerned Tahasildar."
+                            android:textColor="#000000"
+                            android:textSize="16dp">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="280dp"
+                            android:paddingStart="15dp"
+                            android:text="#SC/ST/Cat-1 and GM candidates should obtain income certificates separately."
+                            android:textColor="#000000"
+                            android:textSize="16dp">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="345dp"
+                            android:paddingStart="15dp"
+                            android:text="# Caste and Income certificate produced by eligible 2A, 2B, 3A and 3B category candidates will be considered for Supernumerary seats."
+                            android:textColor="#000000"
+
+
+                            android:textSize="16dp"></TextView>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="445dp"
+                            android:textColor="#000000"
+                            android:textSize="16dp"
+                            android:paddingStart="15dp"
+                            android:text="Kannada Medium Certificate:
+
+Candidates who have studied in Kannada Medium from 1st to 10th Std. in Karnataka and also outside the state of Karnataka.">
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="520dp"
+                            android:paddingStart="15dp"
+                            android:text="# Certificate for having studied 10 full academic years in Kannada medium from 1st standard to 10th standard issued by the Head of the educational institution and such certificate should be countersigned by the respective BEO or DDPI in the proforma prescribed in the following pages."
+                            android:textColor="#000000"
+                            android:textSize="16dp"></TextView>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="670dp"
+                            android:textColor="#000000"
+                            android:textSize="16dp"
+                            android:paddingStart="15dp"
+
+
+                            android:text="Rural Study Certificate">
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="700dp"
+                            android:paddingStart="15dp"
+                            android:paddingBottom="15dp"
+                            android:text="# The candidates who claim seat under rural category will have to obtain a rural study certificate for having studied 10 full academic years in rural areas from 1st standard to 10th standard from the respective school / high school issued by the head of the institution which should be countersigned by the concerned Block Educational Officer (BEO) as per format shown in the following pages."
+                            android:textColor="#000000"
+
+
+                            android:textSize="16dp"></TextView>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="950dp"
+                            android:textColor="#000000"
+                            android:textSize="16dp"
+                            android:paddingStart="15dp"
+                            android:paddingBottom="15dp"
+
+
+                            android:text="#General merit candidates who claims seat in rural category should also submit an income certificate issued from the concerned Tahasildar along with the rural study certificate as per format shown in the following pages.">
+                        </TextView>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="1300dp"
+                            android:textColor="#000000"
+                            android:textSize="16dp"
+                            android:paddingStart="15dp"
+                            android:paddingBottom="15dp"
+
+
+                            android:text="Caste / Income Certificate">
+                        </TextView>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="1600dp"
+                            android:textColor="#000000"
+                            android:textSize="16dp"
+                            android:paddingStart="15dp"
+                            android:paddingBottom="15dp"
+
+
+                            android:text="# Candidates seeking reservation benefit should obtain Caste Certificate in Form 'D' in case of Scheduled Castes and Scheduled Tribes; in Form 'E' in case of Category -1; a Caste Income Certificate in Form 'F' for Other Backward Classes such as 2A, 2B. 3A and 3B, issued by the concerned Jurisdictional Tahasildar, in accordance with the Government order No. Sa Ka E 225 BCA 2000 dated 30th March 2002 and No. Sa Ka E 104 BCA 2011 dated 06-02-2012 as amended from time to time. Annexure-Il to this rule is reproduced in the following pages for the information of the candidates and parents.">
+                        </TextView>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="1630dp"
+                            android:textColor="#000000"
+                            android:textSize="16dp"
+                            android:paddingStart="15dp"
+                            android:paddingBottom="15dp"
+
+
+                            android:text="Article 371 (j) Hyderabad-Karnataka Region">
+                        </TextView>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="1900dp"
+                            android:textColor="#000000"
+                            android:textSize="16dp"
+                            android:paddingStart="15dp"
+                            android:paddingBottom="15dp"
+
+
+                            android:text="# Candidates claiming Hyderabad-Karnataka Region Reservation [Article 371 (j)] must obtain the certificate in Annexure-A (eligibility certificate - rule 3(3)) issued by the concerned Assistant Commissioner">
+                        </TextView>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2200dp"
+                            android:textColor="#000000"
+                            android:textSize="16dp"
+                            android:paddingStart="15dp"
+                            android:paddingBottom="15dp"
+
+
+                            android:text="Parent's study certificate / Parent's Hometown certificate / Parent's Domicile certificate / Parent's Employment certificate / Parent's Cumulative Record / Parent's Marks Card, etc., for the candidates claiming eligibility for Government seats based on the domicile / study / employment of the parent.">
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="1600dp"
+                            android:paddingStart="15dp"
+                            android:paddingBottom="15dp"
+                            android:text="Duly sworn in Affidavit of the candidate who claims eligibility under Horanadu and Gadinadu Kannadiga clauses C and D (Regarding Mother Tongue)."
+                            android:textColor="#000000"
+
+
+                            android:textSize="16dp"></TextView>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2500dp"
+                            android:textColor="#000000"
+                            android:textSize="16dp"
+                            android:paddingStart="15dp"
+                            android:paddingBottom="15dp"
+
+
+                            android:text="IDENTITY CARD issued by the Jurisdictional Deputy Commissioner / District Magistrate / Rehabilitation Commissioner, for the candidates claiming eligibility for Government seats under Jammu and Kashmiri Migrants quota.">
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2700dp"
+                            android:paddingStart="15dp"
+                            android:paddingBottom="15dp"
+                            android:text="Note:
+The following documents should be produced, 'ONLY if applicable'."
+                            android:textColor="#000000"
+
+
+                            android:textSize="16dp"></TextView>
+                    </RelativeLayout>
+
+
+
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

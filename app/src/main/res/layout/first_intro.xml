@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#009688"
+
+
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/allerta"
+
+            android:gravity="center"
+            android:padding="10dp"
+
+            android:text="Predict colleges based on your Ranks"
+
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+
+            android:textStyle="normal|bold">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/abeezee_italic"
+
+            android:gravity="center"
+            android:padding="20dp"
+
+            android:text="K-CET Complete Assistant helps you to select the best Engineering College for you KCET Rank."
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+
+            android:textStyle="normal|bold">
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:background="@drawable/coll"
+            android:layout_gravity="center">
+
+        </ImageView>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15sp"
+            android:layout_marginTop="40sp"
+            android:layout_marginEnd="15sp"
+            android:padding="20dp"
+            android:fontFamily="@font/abeezee_italic"
+
+            android:gravity="center"
+            android:text="We know how difficult it is select the best Engineering college for your KCET Rank from more than 200+ Colleges.That is Why we made the KCET Complete Assistant,to help you"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+
+
+            android:textStyle="normal|bold">
+
+        </TextView>
+
+
+    </LinearLayout>
+</LinearLayout>
