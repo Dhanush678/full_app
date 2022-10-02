@@ -17,7 +17,8 @@
     <color name="dark_one">@color/back</color>
     <color name="dark_two">@color/back</color>
     <color name="dark_three">@color/back</color>
-
+    <color name="Green">#66cc99</color>
+    <color name="Red">#FFC50A0A</color>
     <color name="on_one">@color/colorWhite</color>
     <color name="on_two">@color/colorWhite</color>
     <color name="on_three">@color/colorWhite</color>

@@ -12,6 +12,24 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".wonactivity"
+            android:exported="false" />
+        <activity
+            android:name=".tryagainpage"
+            android:exported="false" />
+        <activity
+            android:name=".mockquestions"
+            android:exported="false" />
+        <activity
+            android:name=".mocksplash"
+            android:exported="false" />
+        <activity
+            android:name=".mock2"
+            android:exported="false" />
+        <activity
+            android:name=".mocksubjects"
+            android:exported="false" />
+        <activity
             android:name=".YoutubePlayer"
             android:exported="false" />
         <activity
