@@ -15,8 +15,8 @@ public class subjects1 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_subjects1);
-        ImageView back8 =findViewById(R.id.back8);
-        back8.setOnClickListener(new View.OnClickListener() {
+        ImageView back12 =findViewById(R.id.back12);
+        back12.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(getApplicationContext(),MainActivity2.class);

@@ -18,7 +18,7 @@
             android:background="#833F51B5">>
 
             <ImageView
-                android:id="@+id/back8"
+                android:id="@+id/back12"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="15dp"
@@ -30,7 +30,7 @@
                 android:layout_alignParentStart="true"
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentBottom="true"
-                android:layout_marginStart="43dp"
+                android:layout_marginStart="60dp"
                 android:layout_marginEnd="19dp"
                 android:fontFamily="@font/aclonica"
                 android:gravity="center_vertical"

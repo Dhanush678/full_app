@@ -2,7 +2,9 @@ package net.smallacademy.authenticatorapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.graphics.Bitmap;
 import android.os.Bundle;
+import android.view.MotionEvent;
 import android.webkit.WebView;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
@@ -35,10 +37,22 @@ public class webview extends AppCompatActivity {
 
         String url = getIntent().getStringExtra("pdf_url");
         WebView webview = findViewById(R.id.web);
-        webview.setWebViewClient(new WebViewClient());
+
+        if (webview.canGoForward()) {
+
+        }
+
         webview.getSettings().setSupportZoom(true);
         webview.getSettings().setJavaScriptEnabled(true);
+        webview.getSettings().setBuiltInZoomControls(true);
+        webview.getSettings().setDisplayZoomControls(false);
         webview.loadUrl("https://docs.google.com/gview?embedded=true&url=" + url);
+        webview.loadUrl("javascript: (function () {document.addEventListener('click', function (e) {e.stopPropagation();}, true);})()");
+
+
 
     }
+
+
+
 }

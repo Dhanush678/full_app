@@ -10,6 +10,7 @@ import android.webkit.WebResourceResponse;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.ImageView;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -21,6 +22,14 @@ public class webview1 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_webview1);
+
+        ImageView back10 =findViewById(R.id.back10);
+        back10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
         String URL = getIntent().getStringExtra("details_url");
         AdBlocker.init(this);
 
