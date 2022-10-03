@@ -4,12 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#A7FFEB"
     android:orientation="vertical"
     tools:context=".YoutubePlayer">
 
     <com.pierfrancescosoffritti.youtubeplayer.player.YouTubePlayerView
         android:id="@+id/youtube_player_view"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+
+        android:layout_height="328dp"/>
 
 </LinearLayout>

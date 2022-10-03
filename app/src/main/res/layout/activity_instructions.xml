@@ -13,7 +13,7 @@
         android:background="#833F51B5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">>
+        app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
             android:id="@+id/back5"
@@ -42,11 +42,11 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
-        android:layout_width="0dp"
+        android:layout_width="320dp"
         android:layout_height="300dp"
-        android:layout_marginStart="45dp"
-        android:layout_marginTop="100dp"
-        android:layout_marginEnd="45dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="15dp"
         android:layout_marginBottom="306dp"
         app:cardCornerRadius="35dp"
         app:layout_constraintBottom_toBottomOf="parent"

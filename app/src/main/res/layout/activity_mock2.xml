@@ -6,45 +6,77 @@
     android:background="@drawable/back31_"
     tools:context=".mock2">
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="#833F51B5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">>
+
+        <ImageView
+            android:id="@+id/back_mock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:src="@drawable/ic_baseline_arrow_back_24" />
+
+        <TextView
+            android:layout_width="329dp"
+            android:layout_height="55dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="65dp"
+            android:layout_marginEnd="44dp"
+            android:layout_marginBottom="-295dp"
+            android:fontFamily="@font/aclonica"
+            android:gravity="center_vertical"
+            android:text="Mock test"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="@dimen/_120sdp"
+        android:layout_height="@dimen/_150sdp"
         android:layout_marginStart="@dimen/_5sdp"
         android:layout_marginEnd="@dimen/_5sdp"
         android:background="@drawable/btn_bg"
-        app:cardBackgroundColor="#FFFFFF"
+        app:cardBackgroundColor="#DDCA6A"
         app:cardCornerRadius="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.216">
+        app:layout_constraintVertical_bias="0.143">
 
         <TextView
             android:id="@+id/subject"
-            android:layout_width="match_parent"
+            android:layout_width="250dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/_5sdp"
-            android:gravity="center"
-            android:text="PHYSICS"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginStart="@dimen/_90sdp"
+            android:text="SUBJECT : PHYSICS"
+            android:textColor="#0B0A0A"
             android:textSize="16sp"
             android:textStyle="bold" />
 
         <ImageView
-            android:layout_width="@dimen/_20sdp"
-            android:layout_height="@dimen/_20sdp"
-            android:layout_marginStart="@dimen/_60sdp"
-            android:layout_marginTop="@dimen/_23sdp"
+            android:layout_width="@dimen/_18sdp"
+            android:layout_height="@dimen/_18sdp"
+            android:layout_marginStart="@dimen/_65sdp"
+            android:layout_marginTop="@dimen/_36sdp"
             android:background="@drawable/timer1" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/_90sdp"
-            android:layout_marginTop="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_38sdp"
             android:layout_marginEnd="@dimen/_40sdp"
             android:gravity="center_vertical"
+            android:textColor="#0B0A0A"
             android:text="Duration : 60 Minutes"
             android:textSize="16sp"
             android:textStyle="bold" />
@@ -53,10 +85,24 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/_90sdp"
-            android:layout_marginTop="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_60sdp"
             android:layout_marginEnd="@dimen/_40sdp"
             android:gravity="center_vertical"
+            android:textColor="#0B0A0A"
             android:text="No. Of Questions : 60"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_90sdp"
+            android:layout_marginTop="@dimen/_80sdp"
+            android:layout_marginEnd="@dimen/_40sdp"
+            android:gravity="center_vertical"
+            android:textColor="#911A1A"
+            android:text=""
             android:textSize="16sp"
             android:textStyle="bold" />
 
@@ -66,12 +112,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/_80sdp"
-            android:layout_marginTop="@dimen/_80sdp"
+            android:layout_marginTop="@dimen/_105sdp"
             android:layout_marginEnd="@dimen/_80sdp"
-
+            android:background="@drawable/btn_bg"
             android:onClick="openactivity1"
             android:text="START"
-            app:backgroundTint="#A80A1D"
+            android:textSize="18sp"
+            app:backgroundTint="#41A80A"
             app:cornerRadius="55dp" />
 
     </androidx.cardview.widget.CardView>

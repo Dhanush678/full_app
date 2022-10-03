@@ -11,7 +11,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class videotopics extends AppCompatActivity {
-    TextView textView;
+    TextView textView,buttone1,buttone2,buttone3,buttone4;
     TextView button1,button2,button3,button4,button5,button6,button7,button8,button9,button10,button11,button12,button13,button14,button15;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,6 +40,10 @@ public class videotopics extends AppCompatActivity {
         button13=findViewById(R.id.button_t13);
         button14=findViewById(R.id.button_t14);
         button15=findViewById(R.id.button_t15);
+        buttone1=findViewById(R.id.button_e12);
+        buttone2=findViewById(R.id.button_e13);
+        buttone3=findViewById(R.id.button_e14);
+        buttone4=findViewById(R.id.button_e15);
 
 
         String h1 = getIntent().getStringExtra("heading1");
@@ -75,11 +79,27 @@ public class videotopics extends AppCompatActivity {
         String t15 = getIntent().getStringExtra("topic15");
         button15.setText(t15);
 
+
+        if(t12.contentEquals(" ")){
+            buttone1.setText("");
+        }
+        if(t13.contentEquals(" ")){
+            buttone2.setText("");
+        }
+        if(t14.contentEquals(" ")){
+            buttone3.setText("");
+        }
+        if(t15.contentEquals(" ")){
+            buttone4.setText("");
+        }
+
+
+
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 String m1 = getIntent().getStringExtra("heading1");
-                if(m1.contentEquals("First Year PUC Mathematics")){
+                if(m1.contentEquals("First Year PUC Maths")){
                     Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
                     intent1.putExtra("video_id","AAmIVlSxBcA");
                     startActivity(intent1);
@@ -103,7 +123,7 @@ public class videotopics extends AppCompatActivity {
                     startActivity(intent1);
                     finish();
                 }
-                if(m1.contentEquals("Second Year PUC Mathematics")){
+                if(m1.contentEquals("Second Year PUC Maths")){
                     Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
                     intent1.putExtra("video_id","");
                     startActivity(intent1);
@@ -135,7 +155,7 @@ public class videotopics extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String m1 = getIntent().getStringExtra("heading1");
-                if(m1.contentEquals("First Year PUC Mathematics")){
+                if(m1.contentEquals("First Year PUC Maths")){
                     Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
                     intent1.putExtra("video_id","AAmIVlSxBcA");
                     startActivity(intent1);
@@ -159,7 +179,7 @@ public class videotopics extends AppCompatActivity {
                     startActivity(intent1);
                     finish();
                 }
-                if(m1.contentEquals("Second Year PUC Mathematics")){
+                if(m1.contentEquals("Second Year PUC Maths")){
                     Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
                     intent1.putExtra("video_id","");
                     startActivity(intent1);
@@ -190,7 +210,7 @@ public class videotopics extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String m1 = getIntent().getStringExtra("heading1");
-                if(m1.contentEquals("First Year PUC Mathematics")){
+                if(m1.contentEquals("First Year PUC Maths")){
                     Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
                     intent1.putExtra("video_id","AAmIVlSxBcA");
                     startActivity(intent1);
@@ -214,7 +234,7 @@ public class videotopics extends AppCompatActivity {
                     startActivity(intent1);
                     finish();
                 }
-                if(m1.contentEquals("Second Year PUC Mathematics")){
+                if(m1.contentEquals("Second Year PUC Maths")){
                     Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
                     intent1.putExtra("video_id","");
                     startActivity(intent1);
@@ -246,7 +266,7 @@ public class videotopics extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String m1 = getIntent().getStringExtra("heading1");
-                if(m1.contentEquals("First Year PUC Mathematics")){
+                if(m1.contentEquals("First Year PUC Maths")){
                     Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
                     intent1.putExtra("video_id","AAmIVlSxBcA");
                     startActivity(intent1);
@@ -270,7 +290,7 @@ public class videotopics extends AppCompatActivity {
                     startActivity(intent1);
                     finish();
                 }
-                if(m1.contentEquals("Second Year PUC Mathematics")){
+                if(m1.contentEquals("Second Year PUC Maths")){
                     Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
                     intent1.putExtra("video_id","");
                     startActivity(intent1);
@@ -302,7 +322,7 @@ public class videotopics extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String m1 = getIntent().getStringExtra("heading1");
-                if(m1.contentEquals("First Year PUC Mathematics")){
+                if(m1.contentEquals("First Year PUC Maths")){
                     Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
                     intent1.putExtra("video_id","AAmIVlSxBcA");
                     startActivity(intent1);
@@ -326,7 +346,7 @@ public class videotopics extends AppCompatActivity {
                     startActivity(intent1);
                     finish();
                 }
-                if(m1.contentEquals("Second Year PUC Mathematics")){
+                if(m1.contentEquals("Second Year PUC Maths")){
                     Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
                     intent1.putExtra("video_id","");
                     startActivity(intent1);
@@ -358,7 +378,7 @@ public class videotopics extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String m1 = getIntent().getStringExtra("heading1");
-                if(m1.contentEquals("First Year PUC Mathematics")){
+                if(m1.contentEquals("First Year PUC Maths")){
                     Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
                     intent1.putExtra("video_id","AAmIVlSxBcA");
                     startActivity(intent1);
@@ -382,7 +402,7 @@ public class videotopics extends AppCompatActivity {
                     startActivity(intent1);
                     finish();
                 }
-                if(m1.contentEquals("Second Year PUC Mathematics")){
+                if(m1.contentEquals("Second Year PUC Maths")){
                     Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
                     intent1.putExtra("video_id","");
                     startActivity(intent1);
@@ -414,7 +434,7 @@ public class videotopics extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String m1 = getIntent().getStringExtra("heading1");
-                if(m1.contentEquals("First Year PUC Mathematics")){
+                if(m1.contentEquals("First Year PUC Maths")){
                     Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
                     intent1.putExtra("video_id","AAmIVlSxBcA");
                     startActivity(intent1);
@@ -438,7 +458,7 @@ public class videotopics extends AppCompatActivity {
                     startActivity(intent1);
                     finish();
                 }
-                if(m1.contentEquals("Second Year PUC Mathematics")){
+                if(m1.contentEquals("Second Year PUC Maths")){
                     Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
                     intent1.putExtra("video_id","");
                     startActivity(intent1);
@@ -470,7 +490,7 @@ public class videotopics extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String m1 = getIntent().getStringExtra("heading1");
-                if(m1.contentEquals("First Year PUC Mathematics")){
+                if(m1.contentEquals("First Year PUC Maths")){
                     Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
                     intent1.putExtra("video_id","AAmIVlSxBcA");
                     startActivity(intent1);
@@ -494,7 +514,7 @@ public class videotopics extends AppCompatActivity {
                     startActivity(intent1);
                     finish();
                 }
-                if(m1.contentEquals("Second Year PUC Mathematics")){
+                if(m1.contentEquals("Second Year PUC Maths")){
                     Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
                     intent1.putExtra("video_id","");
                     startActivity(intent1);
@@ -526,7 +546,7 @@ public class videotopics extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String m1 = getIntent().getStringExtra("heading1");
-                if(m1.contentEquals("First Year PUC Mathematics")){
+                if(m1.contentEquals("First Year PUC Maths")){
                     Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
                     intent1.putExtra("video_id","AAmIVlSxBcA");
                     startActivity(intent1);
@@ -550,7 +570,7 @@ public class videotopics extends AppCompatActivity {
                     startActivity(intent1);
                     finish();
                 }
-                if(m1.contentEquals("Second Year PUC Mathematics")){
+                if(m1.contentEquals("Second Year PUC Maths")){
                     Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
                     intent1.putExtra("video_id","");
                     startActivity(intent1);
@@ -582,7 +602,7 @@ public class videotopics extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String m1 = getIntent().getStringExtra("heading1");
-                if(m1.contentEquals("First Year PUC Mathematics")){
+                if(m1.contentEquals("First Year PUC Maths")){
                     Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
                     intent1.putExtra("video_id","AAmIVlSxBcA");
                     startActivity(intent1);
@@ -606,7 +626,7 @@ public class videotopics extends AppCompatActivity {
                     startActivity(intent1);
                     finish();
                 }
-                if(m1.contentEquals("Second Year PUC Mathematics")){
+                if(m1.contentEquals("Second Year PUC Maths")){
                     Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
                     intent1.putExtra("video_id","");
                     startActivity(intent1);
@@ -638,7 +658,7 @@ public class videotopics extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String m1 = getIntent().getStringExtra("heading1");
-                if(m1.contentEquals("First Year PUC Mathematics")){
+                if(m1.contentEquals("First Year PUC Maths")){
                     Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
                     intent1.putExtra("video_id","AAmIVlSxBcA");
                     startActivity(intent1);
@@ -662,7 +682,7 @@ public class videotopics extends AppCompatActivity {
                     startActivity(intent1);
                     finish();
                 }
-                if(m1.contentEquals("Second Year PUC Mathematics")){
+                if(m1.contentEquals("Second Year PUC Maths")){
                     Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
                     intent1.putExtra("video_id","");
                     startActivity(intent1);
@@ -693,7 +713,7 @@ public class videotopics extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String m1 = getIntent().getStringExtra("heading1");
-                if(m1.contentEquals("First Year PUC Mathematics")){
+                if(m1.contentEquals("First Year PUC Maths")){
                     Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
                     intent1.putExtra("video_id","AAmIVlSxBcA");
                     startActivity(intent1);
@@ -717,7 +737,7 @@ public class videotopics extends AppCompatActivity {
                     startActivity(intent1);
                     finish();
                 }
-                if(m1.contentEquals("Second Year PUC Mathematics")){
+                if(m1.contentEquals("Second Year PUC Maths")){
                     Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
                     intent1.putExtra("video_id","");
                     startActivity(intent1);
@@ -749,7 +769,7 @@ public class videotopics extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String m1 = getIntent().getStringExtra("heading1");
-                if(m1.contentEquals("First Year PUC Mathematics")){
+                if(m1.contentEquals("First Year PUC Maths")){
                     Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
                     intent1.putExtra("video_id","AAmIVlSxBcA");
                     startActivity(intent1);
@@ -773,7 +793,7 @@ public class videotopics extends AppCompatActivity {
                     startActivity(intent1);
                     finish();
                 }
-                if(m1.contentEquals("Second Year PUC Mathematics")){
+                if(m1.contentEquals("Second Year PUC Maths")){
                     Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
                     intent1.putExtra("video_id","");
                     startActivity(intent1);
@@ -805,7 +825,7 @@ public class videotopics extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String m1 = getIntent().getStringExtra("heading1");
-                if(m1.contentEquals("First Year PUC Mathematics")){
+                if(m1.contentEquals("First Year PUC Maths")){
                     Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
                     intent1.putExtra("video_id","AAmIVlSxBcA");
                     startActivity(intent1);
@@ -829,7 +849,7 @@ public class videotopics extends AppCompatActivity {
                     startActivity(intent1);
                     finish();
                 }
-                if(m1.contentEquals("Second Year PUC Mathematics")){
+                if(m1.contentEquals("Second Year PUC Maths")){
                     Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
                     intent1.putExtra("video_id","");
                     startActivity(intent1);
@@ -861,7 +881,7 @@ public class videotopics extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String m1 = getIntent().getStringExtra("heading1");
-                if(m1.contentEquals("First Year PUC Mathematics")){
+                if(m1.contentEquals("First Year PUC Maths")){
                     Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
                     intent1.putExtra("video_id","AAmIVlSxBcA");
                     startActivity(intent1);
@@ -885,7 +905,7 @@ public class videotopics extends AppCompatActivity {
                     startActivity(intent1);
                     finish();
                 }
-                if(m1.contentEquals("Second Year PUC Mathematics")){
+                if(m1.contentEquals("Second Year PUC Maths")){
                     Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
                     intent1.putExtra("video_id","");
                     startActivity(intent1);

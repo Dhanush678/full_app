@@ -36,7 +36,9 @@ public class wonactivity extends AppCompatActivity {
             ic_exit.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    Intent intent = new Intent(wonactivity.this,MainActivity2.class);
+                    int Correct1=getIntent().getIntExtra("Correct",0);
+                    Intent intent = new Intent(wonactivity.this,mock2.class);
+                    intent.putExtra("score",Correct1);
                     startActivity(intent);
                 }
             });

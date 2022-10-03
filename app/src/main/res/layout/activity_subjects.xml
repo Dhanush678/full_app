@@ -52,7 +52,7 @@
             android:background="@drawable/btn_bg"
             android:padding="15dp"
             android:text="MATHEMATICS"
-            android:textSize="22sp"
+            android:textSize="18sp"
             app:backgroundTint="@color/colorWhite"
             app:cornerRadius="800dp" />
 
@@ -64,7 +64,7 @@
             android:padding="15dp"
             android:layout_height="wrap_content"
             android:text="PHYSICS"
-            android:textSize="22sp"
+            android:textSize="18sp"
             android:background="@drawable/btn_bg"
             app:backgroundTint="@color/colorWhite"
             app:cornerRadius="800dp" />
@@ -77,7 +77,7 @@
             android:layout_height="wrap_content"
             android:text="CHEMISTRY"
             android:padding="15dp"
-            android:textSize="22sp"
+            android:textSize="18sp"
             android:background="@drawable/btn_bg"
             app:backgroundTint="@color/colorWhite"
             app:cornerRadius="800dp" />
@@ -90,7 +90,7 @@
             android:layout_height="wrap_content"
             android:text="BIOLOGY"
             android:padding="15dp"
-            android:textSize="22sp"
+            android:textSize="18sp"
             android:background="@drawable/btn_bg"
             app:backgroundTint="@color/colorWhite"
             app:cornerRadius="800dp" />
@@ -103,8 +103,9 @@
             android:layout_height="wrap_content"
             android:padding="15dp"
             android:text="KEY ANSWERS"
-            android:background="#FF5722"
-            android:textSize="22sp"
+            android:background="@drawable/btn_bg"
+            app:backgroundTint="#FF5722"
+            android:textSize="18sp"
             app:cornerRadius="800dp" />
     </LinearLayout>
 </ScrollView>

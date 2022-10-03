@@ -53,7 +53,7 @@
             android:onClick="openactivity_v1"
             android:padding="15dp"
             android:text="MATHEMATICS"
-            android:textSize="22sp"
+            android:textSize="18sp"
             app:backgroundTint="@color/colorWhite"
             app:cornerRadius="800dp" />
 
@@ -67,7 +67,7 @@
             android:onClick="openactivity_v2"
             android:padding="15dp"
             android:text="PHYSICS"
-            android:textSize="22sp"
+            android:textSize="18sp"
             app:backgroundTint="@color/colorWhite"
             app:cornerRadius="800dp" />
 
@@ -81,7 +81,7 @@
             android:onClick="openactivity_v3"
             android:padding="15dp"
             android:text="CHEMISTRY"
-            android:textSize="22sp"
+            android:textSize="18sp"
             app:backgroundTint="@color/colorWhite"
             app:cornerRadius="800dp" />
 
@@ -95,7 +95,7 @@
             android:onClick="openactivity_v4"
             android:padding="15dp"
             android:text="BIOLOGY"
-            android:textSize="22sp"
+            android:textSize="18sp"
             app:backgroundTint="@color/colorWhite"
             app:cornerRadius="800dp" />
 

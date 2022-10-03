@@ -24,11 +24,10 @@ public class puc extends AppCompatActivity {
         });
     }
     public void openactivity_t1(View view){
-        Toast.makeText(this, "button is clicked", Toast.LENGTH_SHORT).show();
         String s1 = getIntent().getStringExtra("subject1");
         if(s1.contentEquals("Mathematics")){
             Intent intent = new Intent(this, videotopics.class);
-            intent.putExtra("heading1","First Year PUC Mathematics");
+            intent.putExtra("heading1","First Year PUC Maths");
             intent.putExtra("topic1","Sets, Relations & Functions");
             intent.putExtra("topic2","Trigonometric Functions");
             intent.putExtra("topic3","Principle of Mathematical Induction");
@@ -109,11 +108,10 @@ public class puc extends AppCompatActivity {
 
     }
     public void openactivity_t2(View view){
-        Toast.makeText(this, "button is clicked", Toast.LENGTH_SHORT).show();
         String s1 = getIntent().getStringExtra("subject1");
         if(s1.contentEquals("Mathematics")){
             Intent intent = new Intent(this, videotopics.class);
-            intent.putExtra("heading1","Second Year PUC Mathematics");
+            intent.putExtra("heading1","Second Year PUC Maths");
             intent.putExtra("topic1","Relations & Functions");
             intent.putExtra("topic2","Inverse Trigonometric functions");
             intent.putExtra("topic3","Matrices");

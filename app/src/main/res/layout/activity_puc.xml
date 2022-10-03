@@ -53,7 +53,7 @@
             android:padding="15dp"
             android:onClick="openactivity_t1"
             android:text="First Year puc"
-            android:textSize="22sp"
+            android:textSize="18sp"
             app:backgroundTint="@color/colorWhite"
             app:cornerRadius="800dp" />
 
@@ -67,7 +67,7 @@
             android:padding="15dp"
             android:onClick="openactivity_t2"
             android:text="Second Year PUC"
-            android:textSize="22sp"
+            android:textSize="18sp"
             app:backgroundTint="@color/colorWhite"
             app:cornerRadius="800dp" />
 
