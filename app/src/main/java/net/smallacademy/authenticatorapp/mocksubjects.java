@@ -59,4 +59,11 @@ public class mocksubjects extends AppCompatActivity {
         intent.putExtra("subject","Biology");
         startActivity(intent);
     }
+
+    @Override
+    public void onBackPressed() {
+        Intent intent=new Intent(getApplicationContext(),MainActivity2.class);
+        startActivity(intent);
+        finish();
+    }
 }

@@ -298,4 +298,8 @@ public class mockquestions extends AppCompatActivity {
         cardC.setBackgroundColor(getResources().getColor(R.color.white));
         cardD.setBackgroundColor(getResources().getColor(R.color.white));
     }
+    @Override
+    public void onBackPressed() {
+
+    }
 }

@@ -21,4 +21,8 @@ public class SplashActivity extends AppCompatActivity {
             }
         }, 4000);
     }
+    @Override
+    public void onBackPressed() {
+
+    }
 }

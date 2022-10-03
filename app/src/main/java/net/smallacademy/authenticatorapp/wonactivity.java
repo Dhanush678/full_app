@@ -60,4 +60,8 @@ public class wonactivity extends AppCompatActivity {
                 }
             });
     }
+    @Override
+    public void onBackPressed() {
+
+    }
 }
