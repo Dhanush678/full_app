@@ -31,7 +31,7 @@ public class wonactivity extends AppCompatActivity {
             Wrong=getIntent().getIntExtra("Wrong",0);
 
             circularProgressBar.setProgress(Correct);
-            result_text.setText((Correct+"/5"));
+            result_text.setText((Correct+"/60"));
 
             ic_exit.setOnClickListener(new View.OnClickListener() {
                 @Override

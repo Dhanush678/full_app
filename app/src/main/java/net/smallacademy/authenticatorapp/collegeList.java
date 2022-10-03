@@ -26,7 +26,7 @@ public class collegeList extends AppCompatActivity {
     }
 
     public void open1(View view) {
-        Intent browser = new Intent(Intent.ACTION_VIEW, Uri.parse("https://uvcebangalore.org/"));
+        Intent browser = new Intent(Intent.ACTION_VIEW, Uri.parse("https://uvce.ac.in/"));
         startActivity(browser);
     }
     public void more1(View view) {

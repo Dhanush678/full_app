@@ -16,7 +16,7 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="?actionBarSize"
-            android:background="#833F51B5">>
+            android:background="#E41430CC">
 
             <ImageView
                 android:id="@+id/back10"
@@ -35,7 +35,7 @@
                 android:layout_marginEnd="19dp"
                 android:fontFamily="@font/aclonica"
                 android:gravity="center_vertical"
-                android:text="College Predictor"
+                android:text="College Details"
                 android:textColor="#FFFFFF"
                 android:textSize="20sp"
                 android:textStyle="bold" />
