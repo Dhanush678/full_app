@@ -37,7 +37,7 @@ public class wonactivity extends AppCompatActivity {
                 @Override
                 public void onClick(View view) {
                     int Correct1=getIntent().getIntExtra("Correct",0);
-                    Intent intent = new Intent(wonactivity.this,mock2.class);
+                    Intent intent = new Intent(wonactivity.this,mocksubjects.class);
                     intent.putExtra("score",Correct1);
                     startActivity(intent);
                 }

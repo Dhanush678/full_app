@@ -68,9 +68,11 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/card_quetion"
                     android:textColor="@color/black"
-                    android:layout_marginStart="@dimen/_25sdp"
+                    android:layout_marginStart="@dimen/_26sdp"
+                    android:layout_marginRight="@dimen/_7sdp"
+                    android:layout_marginTop="@dimen/_20sdp"
                     android:text="@string/app_name"
-                    android:layout_gravity="center"/>
+                    />
 
             </androidx.cardview.widget.CardView>
 
@@ -109,7 +111,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="@dimen/_14sdp"
+                    android:layout_marginStart="@dimen/_10sdp"
                     android:layout_marginRight="@dimen/_7sdp"
                     android:layout_marginTop="@dimen/_10sdp"
                     android:textColor="@color/black"
@@ -119,7 +121,9 @@
                     android:id="@+id/card_optiona"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/_25sdp"
+                    android:layout_marginRight="@dimen/_7sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
                     android:text="A)"
                     android:textColor="@color/black" />
 
@@ -150,7 +154,9 @@
                     android:id="@+id/card_optionb"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/_25sdp"
+                    android:layout_marginRight="@dimen/_7sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
                     android:text="B)"
                     android:textColor="@color/black" />
 
@@ -181,7 +187,9 @@
                     android:id="@+id/card_optionc"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/_25sdp"
+                    android:layout_marginRight="@dimen/_7sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
                     android:text="C)"
                     android:textColor="@color/black" />
 
@@ -212,7 +220,9 @@
                     android:id="@+id/card_optiond"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/_25sdp"
+                    android:layout_marginRight="@dimen/_7sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
                     android:text="D)"
                     android:textColor="@color/black" />
 
@@ -223,7 +233,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="@dimen/_15sdp">
+        android:layout_marginTop="@dimen/_65sdp">
 
         <Button
             android:id="@+id/clr_btn"
@@ -232,7 +242,7 @@
             android:layout_marginStart="16dp"
             android:text="Clear Selection"
             android:textColor="#000000"
-            app:backgroundTint="#F3475FF8"
+            android:background="#F3475FF8"
             app:cornerRadius="80dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/nxt_btn"
@@ -248,7 +258,7 @@
             android:layout_marginEnd="16dp"
             android:text="NEXT"
             android:textColor="#000000"
-            app:backgroundTint="#F3475FF8"
+            android:background="#F3475FF8"
             app:cornerRadius="80dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"

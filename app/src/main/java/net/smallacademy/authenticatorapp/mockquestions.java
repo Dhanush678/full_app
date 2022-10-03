@@ -81,7 +81,7 @@ public class mockquestions extends AppCompatActivity {
         ic_exit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                counter = 100;
+                counter = 36000;
                 Intent intent = new Intent(mockquestions.this, mocksubjects.class);
                 startActivity(intent);
             }
@@ -104,7 +104,7 @@ public class mockquestions extends AppCompatActivity {
                     setQuestion();
                 }
                 else {
-                    counter = 100;
+                    counter = 36000;
                     gamewon();
                 }
 
@@ -189,7 +189,7 @@ public class mockquestions extends AppCompatActivity {
             }
         };
 
-        t.schedule(tt, 0, 100);
+        t.schedule(tt, 0, 36000);
     }
 
     public void Hooks() {
@@ -248,7 +248,7 @@ public class mockquestions extends AppCompatActivity {
     }
 
     public void Wrong(CardView cardView) {
-        cardView.setBackgroundColor(getResources().getColor(R.color.Red));
+        cardView.setBackgroundColor(getResources().getColor(R.color.Green));
 
         nxt_btn.setOnClickListener(new View.OnClickListener() {
             @Override
