@@ -40,7 +40,6 @@ import net.smallacademy.authenticatorapp.databinding.ActivityMainBinding;
 import javax.annotation.Nullable;
 
 public class MainActivity extends DrawerBaseActivity {
-    ActivityMainBinding activityMainBinding;
     private static final int GALLERY_INTENT_CODE = 1023 ;
     TextView fullName,email,phone,verifyMsg;
     FirebaseAuth fAuth;
@@ -56,9 +55,9 @@ public class MainActivity extends DrawerBaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        activityMainBinding =ActivityMainBinding.inflate(getLayoutInflater());
 
-        setContentView(activityMainBinding.getRoot());
+
+        setContentView(R.layout.activity_main);
         allocateActivityTitle("MainPage");
         phone = findViewById(R.id.profilePhone);
         fullName = findViewById(R.id.profileName);

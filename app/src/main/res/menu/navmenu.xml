@@ -20,10 +20,12 @@
     </group>
     <group android:title="Accessories"
         android:checkableBehavior="single">
+
         <item
-            android:id="@+id/logout"
-            android:title="Log out"
-            android:icon="@drawable/ic_baseline_exit_to_app_24">
+            android:id="@+id/Rating"
+            android:title="Rate us"
+            android:icon="@drawable/ic_baseline_rate_review_24">
+
 
         </item>
         <item
@@ -31,6 +33,12 @@
             android:title="about us"
             android:icon="@drawable/ic_about_us_svgrepo_com">
 
+
+        </item>
+        <item
+            android:id="@+id/logout"
+            android:title="Log out"
+            android:icon="@drawable/ic_baseline_exit_to_app_24">
 
         </item>
         <item

@@ -64,7 +64,7 @@
         android:layout_marginTop="185dp"
         android:layout_marginEnd="127dp"
         android:fontFamily="@font/aclonica"
-        android:text="2.6.4.46"
+        android:text="1.0.0.0"
         android:textAllCaps="false"
         android:textColor="@color/colorWhite"
         android:textSize="12sp" />
@@ -102,11 +102,12 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <androidx.constraintlayout.widget.ConstraintLayout
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
                 <ImageView
+                    android:id="@+id/teleIMAge"
                     android:layout_width="55dp"
                     android:layout_height="55dp"
                     android:padding="15dp"
@@ -118,14 +119,14 @@
                     app:srcCompat="@drawable/tele_image" />
 
                 <TextView
-                    android:id="@+id/textView_a1"
+                    android:id="@+id/teleTEXt"
                     android:layout_width="wrap_content"
-
                     android:layout_height="wrap_content"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentEnd="true"
                     android:layout_centerHorizontal="true"
                     android:layout_marginEnd="64dp"
+                    android:layout_marginTop="14dp"
                     android:fontFamily="@font/aclonica"
                     android:text="Join our Telegram Channel"
                     android:textAllCaps="true"
@@ -135,14 +136,15 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintVertical_bias="0.555" />
+            </LinearLayout>
 
-            </androidx.constraintlayout.widget.ConstraintLayout>
-
-            <androidx.constraintlayout.widget.ConstraintLayout
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
                 <ImageView
+                    android:id="@+id/insata"
+
                     android:layout_width="55dp"
                     android:layout_height="55dp"
                     android:padding="15dp"
@@ -155,15 +157,17 @@
 
                 <TextView
                     android:id="@+id/textView_a2"
+
                     android:layout_width="wrap_content"
 
                     android:layout_height="wrap_content"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentEnd="true"
                     android:layout_centerHorizontal="true"
-                    android:layout_marginEnd="84dp"
+                    android:layout_marginTop="15dp"
                     android:fontFamily="@font/aclonica"
-                    android:text="Follow us on Instagram"
+                    android:text="Join our instagram Channel"
+
                     android:textAllCaps="true"
                     android:textColor="@color/colorWhite"
                     android:textSize="14sp"
@@ -172,13 +176,15 @@
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintVertical_bias="0.555" />
 
-            </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
 
-            <androidx.constraintlayout.widget.ConstraintLayout
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
                 <ImageView
+                    android:id="@+id/face"
+
                     android:layout_width="55dp"
                     android:layout_height="55dp"
                     android:padding="15dp"
@@ -190,14 +196,15 @@
                     app:srcCompat="@drawable/ic_facebook" />
 
                 <TextView
-                    android:id="@+id/textView_a3"
+                    android:id="@+id/faceTEXT"
                     android:layout_width="wrap_content"
 
                     android:layout_height="wrap_content"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentEnd="true"
                     android:layout_centerHorizontal="true"
-                    android:layout_marginEnd="92dp"
+                    android:layout_marginEnd="85dp"
+                    android:layout_marginTop="9dp"
                     android:fontFamily="@font/aclonica"
                     android:text="Follow us on Facebook"
                     android:textAllCaps="true"
@@ -208,13 +215,24 @@
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintVertical_bias="0.444" />
 
-            </androidx.constraintlayout.widget.ConstraintLayout>
+                <Button
+                    android:id="@+id/facebook"
+                    android:layout_width="match_parent"
 
-            <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_height="match_parent"
+                    android:background="#00ff0000">
+
+                </Button>
+
+
+            </LinearLayout>
+
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
                 <ImageView
+                    android:id="@+id/mybtn"
                     android:layout_width="55dp"
                     android:layout_height="55dp"
                     android:padding="15dp"
@@ -226,16 +244,17 @@
                     app:srcCompat="@drawable/ic_email" />
 
                 <TextView
-                    android:id="@+id/textView_a4"
+                    android:id="@+id/txtView"
                     android:layout_width="wrap_content"
 
                     android:layout_height="wrap_content"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentEnd="true"
                     android:layout_centerHorizontal="true"
-                    android:layout_marginEnd="116dp"
+                    android:layout_marginEnd="114dp"
+                    android:layout_marginTop="15dp"
                     android:fontFamily="@font/aclonica"
-                    android:text="Contact us by E mail"
+                    android:text="Contact us by E-mail"
                     android:textAllCaps="true"
                     android:textColor="@color/colorWhite"
                     android:textSize="14sp"
@@ -244,9 +263,12 @@
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintVertical_bias="0.555" />
 
-            </androidx.constraintlayout.widget.ConstraintLayout>
 
-            <androidx.constraintlayout.widget.ConstraintLayout
+
+
+            </LinearLayout>
+
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
@@ -270,6 +292,7 @@
                     android:layout_alignParentEnd="true"
                     android:layout_centerHorizontal="true"
                     android:layout_marginEnd="104dp"
+                    android:layout_marginTop="15dp"
                     android:fontFamily="@font/aclonica"
                     android:text="Rate us on Play Store"
                     android:textAllCaps="true"
@@ -279,16 +302,19 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
-            </androidx.constraintlayout.widget.ConstraintLayout>
 
-            <androidx.constraintlayout.widget.ConstraintLayout
+
+            </LinearLayout>
+
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
                 <ImageView
+                    android:id="@+id/sharenew"
                     android:layout_width="55dp"
                     android:layout_height="55dp"
-                    android:padding="15dp"
+                    android:padding="10dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toStartOf="@+id/textView_a6"
                     app:layout_constraintHorizontal_bias="0.143"
@@ -297,25 +323,29 @@
                     app:srcCompat="@drawable/share_image" />
 
                 <TextView
-                    android:id="@+id/textView_a6"
+                    android:id="@+id/shareTEXT"
                     android:layout_width="wrap_content"
 
                     android:layout_height="wrap_content"
-                    android:layout_alignParentTop="true"
-                    android:layout_alignParentEnd="true"
+
                     android:layout_centerHorizontal="true"
-                    android:layout_marginEnd="200dp"
+                    android:layout_marginEnd="189dp"
+                    android:layout_marginTop="18dp"
+
                     android:fontFamily="@font/aclonica"
                     android:text="Share app"
                     android:textAllCaps="true"
                     android:textColor="@color/colorWhite"
-                    android:textSize="14sp"
+                    android:textSize="16sp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintVertical_bias="0.444" />
 
-            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+            </LinearLayout>
 
         </LinearLayout>
     </ScrollView>

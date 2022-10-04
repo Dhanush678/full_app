@@ -32,7 +32,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class EditProfile extends DrawerBaseActivity {
-    ActivityEditProfileBinding activityEditProfileBinding;
 
     public static final String TAG = "TAG";
     EditText profileFullName,profileEmail,profilePhone;
@@ -46,9 +45,8 @@ public class EditProfile extends DrawerBaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        activityEditProfileBinding =ActivityEditProfileBinding.inflate(getLayoutInflater());
 
-        setContentView(activityEditProfileBinding.getRoot());
+        setContentView(R.layout.activity_edit_profile);
         allocateActivityTitle("EditProfile");
 
         Intent data = getIntent();

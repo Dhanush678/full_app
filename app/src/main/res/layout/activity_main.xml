@@ -20,7 +20,7 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="300dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:background="@drawable/btn_bg"
@@ -34,25 +34,25 @@
 
     <ImageView
         android:id="@+id/profileImage"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
         android:background="@drawable/btn_bg"
         android:backgroundTint="@color/background"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.444"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.048"
-        app:srcCompat="@drawable/ic_person" />
+        app:layout_constraintVertical_bias="0.074"
+        app:srcCompat="@drawable/ic_avatar_svgrepo_com__1_" />
 
     <TextView
         android:id="@+id/profileName"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:padding="10dp"
+        android:layout_marginTop="6dp"
+        android:padding="7dp"
         android:layout_marginEnd="16dp"
         android:text="Your Name"
         android:textSize="16sp"
@@ -66,8 +66,8 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:padding="10dp"
+        android:layout_marginTop="6dp"
+        android:padding="7dp"
         android:layout_marginEnd="16dp"
         android:text="Your Email Address"
         android:textSize="16sp"
@@ -81,8 +81,8 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:padding="10dp"
-        android:layout_marginTop="8dp"
+        android:padding="7dp"
+        android:layout_marginTop="6dp"
         android:text="Phone Number"
         android:textSize="16sp"
         android:textStyle="bold"
@@ -95,7 +95,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="6dp"
         android:layout_marginEnd="8dp"
         android:text="Email Not Verfied !"
         android:textColor="#C2185B"
@@ -118,9 +118,9 @@
 
     <Button
         android:id="@+id/resetPasswordLocal"
-        android:layout_width="300dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
+        
         android:background="@drawable/btn_bg"
         android:text="Reset Password"
         app:layout_constraintBottom_toTopOf="@+id/button"
@@ -135,7 +135,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="16dp"
-        android:padding="10dp"
+        android:padding="7dp"
         android:text="Full Name"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView2"
@@ -146,7 +146,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:padding="10dp"
+        android:padding="7dp"
         android:layout_marginEnd="16dp"
         android:text="Email"
         app:layout_constraintEnd_toEndOf="parent"
@@ -190,7 +190,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="16dp"
-        android:padding="10dp"
+        android:padding="7dp"
         android:text="Phone"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView4"
@@ -198,7 +198,7 @@
 
     <Button
         android:id="@+id/changeProfile"
-        android:layout_width="300dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
@@ -206,9 +206,9 @@
         android:text="Change Profile"
         app:layout_constraintBottom_toBottomOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/profilePhone"
-        app:layout_constraintVertical_bias="0.325" />
+        app:layout_constraintVertical_bias="0.142" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
