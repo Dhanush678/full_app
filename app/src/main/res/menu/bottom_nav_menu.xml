@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/person"
-        android:title="Profile"
-        android:icon="@drawable/ic_person"/>
-    <item
         android:id="@+id/home"
         android:title="Home"
-        android:icon="@drawable/ic_baseline_home_244545"/>
+        android:icon="@drawable/ic_baseline_home_24"/>
     <item
-        android:id="@+id/noti"
-        android:title="Settings"
-        android:icon="@drawable/ic_baseline_notifications_24"/>
+        android:id="@+id/person"
+        android:title="Profile"
+        android:icon="@drawable/ic_baseline_person_24_blue"/>
+
+    <item
+        android:id="@+id/about"
+        android:title="About US"
+        android:icon="@drawable/ic_about_us_svgrepo_com"/>
 
 </menu>

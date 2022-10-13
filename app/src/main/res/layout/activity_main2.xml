@@ -10,13 +10,15 @@
     tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck"
     android:orientation="vertical">
 
+
     <LinearLayout
+        android:id="@+id/linearLayout3"
         android:layout_width="match_parent"
-        android:background="#00ff0000"
 
         android:layout_height="match_parent"
-        android:orientation="vertical"
-       >
+        android:background="#00ff0000"
+        android:orientation="vertical">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -34,11 +36,11 @@
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent">
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical">
-
 
 
                 <RelativeLayout
@@ -88,14 +90,16 @@
                         android:layout_marginBottom="10dp"
                         android:src="@drawable/ranking" />
                 </RelativeLayout>
+
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
+
                     <RelativeLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/border"
-                        android:layout_margin="30dp">
+                        android:layout_margin="30dp"
+                        android:background="@drawable/border">
 
 
                         <TextView
@@ -123,26 +127,26 @@
                             android:textColor="@color/colorWhite" />
 
 
-
                     </RelativeLayout>
 
                     <ImageView
                         android:layout_width="75dp"
                         android:layout_height="85dp"
                         android:layout_marginLeft="230dp"
-                        android:layout_marginBottom="10dp"
                         android:layout_marginTop="28dp"
+                        android:layout_marginBottom="10dp"
                         android:src="@drawable/school" />
                 </RelativeLayout>
 
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
+
                     <RelativeLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/border"
-                        android:layout_margin="30dp">
+                        android:layout_margin="30dp"
+                        android:background="@drawable/border">
 
 
                         <TextView
@@ -170,25 +174,26 @@
                             android:textColor="@color/colorWhite" />
 
 
-
                     </RelativeLayout>
 
                     <ImageView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:layout_marginLeft="225dp"
-                        android:layout_marginBottom="10dp"
                         android:layout_marginTop="20dp"
+                        android:layout_marginBottom="10dp"
                         android:src="@drawable/videos" />
                 </RelativeLayout>
+
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
+
                     <RelativeLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/border"
-                        android:layout_margin="30dp">
+                        android:layout_margin="30dp"
+                        android:background="@drawable/border">
 
 
                         <TextView
@@ -211,18 +216,22 @@
                         android:layout_width="75dp"
                         android:layout_height="85dp"
                         android:layout_marginLeft="240dp"
-                        android:layout_marginBottom="10dp"
                         android:layout_marginTop="28dp"
+                        android:layout_marginBottom="10dp"
                         android:src="@drawable/exam" />
+
+
                 </RelativeLayout>
+
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
+
                     <RelativeLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/border"
-                        android:layout_margin="30dp">
+                        android:layout_margin="30dp"
+                        android:background="@drawable/border">
 
 
                         <TextView
@@ -230,9 +239,9 @@
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/capriola"
                             android:padding="20dp"
+                            android:paddingStart="30dp"
                             android:text="MOck test"
                             android:textAllCaps="true"
-                            android:paddingStart="30dp"
                             android:textColor="@color/colorWhite"
                             android:textSize="25sp" />
 
@@ -247,25 +256,26 @@
                             android:textColor="@color/colorWhite" />
 
 
-
                     </RelativeLayout>
 
                     <ImageView
                         android:layout_width="75dp"
                         android:layout_height="75dp"
                         android:layout_marginLeft="240dp"
+                        android:layout_marginTop="28dp"
                         android:layout_marginBottom="10dp"
-                        android:src="@drawable/test"
-                        android:layout_marginTop="28dp"/>
+                        android:src="@drawable/test" />
                 </RelativeLayout>
+
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
+
                     <RelativeLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/border"
-                        android:layout_margin="30dp">
+                        android:layout_margin="30dp"
+                        android:background="@drawable/border">
 
 
                         <TextView
@@ -273,10 +283,11 @@
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/capriola"
                             android:padding="10dp"
+                            android:paddingStart="30dp"
                             android:text="college
+
                     list"
                             android:textAllCaps="true"
-                            android:paddingStart="30dp"
                             android:textColor="@color/colorWhite"
                             android:textSize="25sp" />
 
@@ -298,27 +309,32 @@
                         android:layout_width="140dp"
                         android:layout_height="85dp"
                         android:layout_marginLeft="200dp"
-                        android:layout_marginBottom="10dp"
                         android:layout_marginTop="28dp"
+                        android:layout_marginBottom="10dp"
                         android:src="@drawable/fsfsd" />
                 </RelativeLayout>
+
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="180dp">
+
                     <RelativeLayout
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/border"
-                        android:layout_margin="30dp">
+                        android:layout_height="80dp"
+                        android:layout_margin="30dp"
+                        android:background="@drawable/border">
 
 
                         <TextView
-                            android:layout_width="225dp"
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/capriola"
                             android:padding="10dp"
                             android:paddingStart="30dp"
                             android:text="all about
+
+
+
 kcet exam"
                             android:textAllCaps="true"
                             android:textColor="@color/colorWhite"
@@ -351,24 +367,33 @@ kcet exam"
                         android:layout_width="75dp"
                         android:layout_height="85dp"
                         android:layout_marginLeft="240dp"
+                        android:layout_marginTop="28dp"
                         android:layout_marginBottom="10dp"
-                        android:src="@drawable/documents"
-                        android:layout_marginTop="28dp"/>
+                        android:src="@drawable/documents" />
 
                 </RelativeLayout>
 
             </LinearLayout>
         </ScrollView>
+
+
     </LinearLayout>
-    <FrameLayout
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:id="@+id/frame_layout"
-        tools:ignore="MissingConstraints">
+        android:layout_height="50dp"
+        android:id="@+id/nav"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:background="@drawable/input_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:itemTextColor="@color/colorPrimaryDark"
+        app:itemIconTint="@color/colorPrimaryDark"
 
-    </FrameLayout>
-
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_nav_menu"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

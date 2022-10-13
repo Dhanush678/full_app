@@ -1,17 +1,22 @@
 package net.smallacademy.authenticatorapp;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.fragment.app.Fragment;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.graphics.drawable.AnimationDrawable;
 
 import android.os.Handler;
 import android.os.Looper;
 import android.util.Log;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
@@ -22,6 +27,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.etebarian.meowbottomnavigation.MeowBottomNavigation;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.android.material.navigation.NavigationBarView;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.firestore.DocumentReference;
@@ -38,6 +45,8 @@ import net.smallacademy.authenticatorapp.databinding.ActivityMain2Binding;
 import javax.annotation.Nullable;
 
 public class MainActivity2 extends DrawerBaseActivity {
+    BottomNavigationView nav;
+
     ActivityMain2Binding activityMain2Binding;
 
 
@@ -57,9 +66,51 @@ public class MainActivity2 extends DrawerBaseActivity {
         allocateActivityTitle("MainActivity2");
         ConstraintLayout constraintLayout=findViewById(R.id.layoutMAIN);
         AnimationDrawable animationDrawable=(AnimationDrawable) constraintLayout.getBackground();
-        animationDrawable.setEnterFadeDuration(3500);
-        animationDrawable.setExitFadeDuration(5500);
+        animationDrawable.setEnterFadeDuration(35000000);
+        animationDrawable.setExitFadeDuration(55000000);
         animationDrawable.start();
+        ActionBar actionBar;
+        actionBar = getSupportActionBar();
+
+        // Define ColorDrawable object and parse color
+        // using parseColor method
+        // with color hash code as its parameter
+        ColorDrawable colorDrawable
+                = new ColorDrawable(Color.parseColor("#00ff0000"));
+
+        // Set BackgroundDrawable
+        actionBar.setBackgroundDrawable(colorDrawable);
+
+
+        nav=findViewById(R.id.nav);
+        nav.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+
+                switch (item.getItemId()){
+                    case R.id.home:
+                        startActivity(new Intent(getApplicationContext(),MainActivity2.class));
+                        finish();
+                        break;
+                    case R.id.person:
+                        startActivity(new Intent(getApplicationContext(),MainActivity.class));
+                        finish();
+                        break;
+                    case R.id.about:
+                        startActivity(new Intent(getApplicationContext(),aboutus.class));
+                        finish();
+                        break;
+
+
+                }
+
+
+
+
+
+                return true;
+            }
+        });
 
 
         final TextView textView=findViewById(R.id.welcome);

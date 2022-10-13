@@ -13,6 +13,7 @@
     <color name="colorRed">#C11515</color>
     <color name="back">#363E40</color>
     <color name="background">#666D73</color>
+    <color name="trans">#00ff0000</color>
     <!--gradient colors-->
     <color name="gradientOrange">#FF416C</color>
     <color name="gradientViolet">#8A52E9</color>

@@ -1461,14 +1461,14 @@
                         android:layout_alignParentLeft="true"
                         android:layout_marginTop="10dp"
                         android:paddingStart="5dp"
-                        android:src="@drawable/cmrit_logo" />
+                        android:src="@drawable/bnm" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="100dp"
                         android:layout_marginLeft="110dp"
                         android:fontFamily="@font/aclonica"
-                        android:text="CMRIT Institute of technology University"
+                        android:text="BNM Institute of technology "
                         android:textColor="@color/white"
                         android:textSize="17dp" />
 
@@ -1477,7 +1477,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="105dp"
                         android:layout_marginTop="50dp"
-                        android:text="NIRF Ranking:180"
+                        android:text="NIRF Ranking:192"
                         android:textColor="@color/white"
                         android:textSize="12dp" />
 
@@ -1486,7 +1486,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="230dp"
                         android:layout_marginTop="50dp"
-                        android:text="NIRF Scores : 35.11"
+                        android:text="NIRF Scores : 33.11"
                         android:textColor="@color/white"
                         android:textSize="12dp" />
 
@@ -1503,7 +1503,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="230dp"
                         android:layout_marginTop="75dp"
-                        android:text="State Ranking: 14"
+                        android:text="State Ranking: 15"
                         android:textColor="@color/white"
                         android:textSize="12dp" />
 
@@ -1513,7 +1513,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="125dp"
                         android:layout_marginTop="100dp"
-                        android:onClick="open14"
+                        android:onClick="open15"
                         android:text="College Website"
                         android:textColor="#13C51A"
                         android:textSize="13dp" />
@@ -1523,7 +1523,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="230dp"
                         android:layout_marginTop="100dp"
-                        android:onClick="more14"
+                        android:onClick="more15"
                         android:text="More Details"
                         android:textColor="@color/colorRed"
                         android:textSize="13dp" />
@@ -1547,6 +1547,493 @@
 
 
                 </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="125dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/rectanle">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="200dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginTop="10dp"
+                        android:paddingStart="5dp"
+                        android:src="@drawable/_545_dayanada_sagar1" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_marginLeft="110dp"
+                        android:fontFamily="@font/aclonica"
+                        android:text="Dayanand sagar college of engineering"
+                        android:textColor="@color/white"
+                        android:textSize="17dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="105dp"
+                        android:layout_marginTop="50dp"
+                        android:text="NIRF Ranking:203"
+                        android:textColor="@color/white"
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="230dp"
+                        android:layout_marginTop="50dp"
+                        android:text="NIRF Scores : 31.11"
+                        android:textColor="@color/white"
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="125dp"
+                        android:layout_marginTop="75dp"
+                        android:text="Bengaluru"
+                        android:textColor="@color/white"
+                        android:textSize="12dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="230dp"
+                        android:layout_marginTop="75dp"
+                        android:text="State Ranking: 16"
+                        android:textColor="@color/white"
+                        android:textSize="12dp" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="125dp"
+                        android:layout_marginTop="100dp"
+                        android:onClick="open16"
+                        android:text="College Website"
+                        android:textColor="#13C51A"
+                        android:textSize="13dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="230dp"
+                        android:layout_marginTop="100dp"
+                        android:onClick="more16"
+                        android:text="More Details"
+                        android:textColor="@color/colorRed"
+                        android:textSize="13dp" />
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="93dp"
+                        android:layout_marginLeft="100dp"
+                        android:layout_alignParentLeft="true"
+                        android:paddingStart="5dp"
+                        android:src="@drawable/ic_web" />
+
+                    <ImageView
+                        android:layout_width="18dp"
+                        android:layout_height="23dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="100dp"
+                        android:layout_marginTop="73dp"
+                        android:paddingStart="5dp"
+                        android:src="@drawable/ic_location" />
+
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="125dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/rectanle">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="200dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginTop="10dp"
+                        android:paddingStart="5dp"
+                        android:src="@drawable/_55" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_marginLeft="110dp"
+                        android:fontFamily="@font/aclonica"
+                        android:text="National Institute of engineering"
+                        android:textColor="@color/white"
+                        android:textSize="17dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="105dp"
+                        android:layout_marginTop="50dp"
+                        android:text="NIRF Ranking:209"
+                        android:textColor="@color/white"
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="230dp"
+                        android:layout_marginTop="50dp"
+                        android:text="NIRF Scores : 30.2"
+                        android:textColor="@color/white"
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="125dp"
+                        android:layout_marginTop="75dp"
+                        android:text="Mysuru"
+                        android:textColor="@color/white"
+                        android:textSize="12dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="230dp"
+                        android:layout_marginTop="75dp"
+                        android:text="State Ranking: 17"
+                        android:textColor="@color/white"
+                        android:textSize="12dp" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="125dp"
+                        android:layout_marginTop="100dp"
+                        android:onClick="open17"
+                        android:text="College Website"
+                        android:textColor="#13C51A"
+                        android:textSize="13dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="230dp"
+                        android:layout_marginTop="100dp"
+                        android:onClick="more17"
+                        android:text="More Details"
+                        android:textColor="@color/colorRed"
+                        android:textSize="13dp" />
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="93dp"
+                        android:layout_marginLeft="100dp"
+                        android:layout_alignParentLeft="true"
+                        android:paddingStart="5dp"
+                        android:src="@drawable/ic_web" />
+
+                    <ImageView
+                        android:layout_width="18dp"
+                        android:layout_height="23dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="100dp"
+                        android:layout_marginTop="73dp"
+                        android:paddingStart="5dp"
+                        android:src="@drawable/ic_location" />
+
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="125dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/rectanle">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="200dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginTop="10dp"
+                        android:paddingStart="5dp"
+                        android:src="@drawable/oip__4_" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_marginLeft="110dp"
+                        android:fontFamily="@font/aclonica"
+                        android:text="KLE Technological University"
+                        android:textColor="@color/white"
+                        android:textSize="17dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="105dp"
+                        android:layout_marginTop="50dp"
+                        android:text="NIRF Ranking:214"
+                        android:textColor="@color/white"
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="230dp"
+                        android:layout_marginTop="50dp"
+                        android:text="NIRF Scores : 29.8"
+                        android:textColor="@color/white"
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="125dp"
+                        android:layout_marginTop="75dp"
+                        android:text="Hubli"
+                        android:textColor="@color/white"
+                        android:textSize="12dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="230dp"
+                        android:layout_marginTop="75dp"
+                        android:text="State Ranking: 18"
+                        android:textColor="@color/white"
+                        android:textSize="12dp" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="125dp"
+                        android:layout_marginTop="100dp"
+                        android:onClick="open18"
+                        android:text="College Website"
+                        android:textColor="#13C51A"
+                        android:textSize="13dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="230dp"
+                        android:layout_marginTop="100dp"
+                        android:onClick="more18"
+                        android:text="More Details"
+                        android:textColor="@color/colorRed"
+                        android:textSize="13dp" />
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="93dp"
+                        android:layout_marginLeft="100dp"
+                        android:layout_alignParentLeft="true"
+                        android:paddingStart="5dp"
+                        android:src="@drawable/ic_web" />
+
+                    <ImageView
+                        android:layout_width="18dp"
+                        android:layout_height="23dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="100dp"
+                        android:layout_marginTop="73dp"
+                        android:paddingStart="5dp"
+                        android:src="@drawable/ic_location" />
+
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="125dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/rectanle">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="200dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginTop="10dp"
+                        android:paddingStart="5dp"
+                        android:src="@drawable/jain_university__10331063_d41be067" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_marginLeft="110dp"
+                        android:fontFamily="@font/aclonica"
+                        android:text="Jain University"
+                        android:textColor="@color/white"
+                        android:textSize="17dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="105dp"
+                        android:layout_marginTop="50dp"
+                        android:text="NIRF Ranking:219"
+                        android:textColor="@color/white"
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="230dp"
+                        android:layout_marginTop="50dp"
+                        android:text="NIRF Scores : 29.1"
+                        android:textColor="@color/white"
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="125dp"
+                        android:layout_marginTop="75dp"
+                        android:text="Bengaluru"
+                        android:textColor="@color/white"
+                        android:textSize="12dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="230dp"
+                        android:layout_marginTop="75dp"
+                        android:text="State Ranking: 19"
+                        android:textColor="@color/white"
+                        android:textSize="12dp" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="125dp"
+                        android:layout_marginTop="100dp"
+                        android:onClick="open19"
+                        android:text="College Website"
+                        android:textColor="#13C51A"
+                        android:textSize="13dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="230dp"
+                        android:layout_marginTop="100dp"
+                        android:onClick="more19"
+                        android:text="More Details"
+                        android:textColor="@color/colorRed"
+                        android:textSize="13dp" />
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="93dp"
+                        android:layout_marginLeft="100dp"
+                        android:layout_alignParentLeft="true"
+                        android:paddingStart="5dp"
+                        android:src="@drawable/ic_web" />
+
+                    <ImageView
+                        android:layout_width="18dp"
+                        android:layout_height="23dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="100dp"
+                        android:layout_marginTop="73dp"
+                        android:paddingStart="5dp"
+                        android:src="@drawable/ic_location" />
+
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="125dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/rectanle">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="200dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginTop="10dp"
+                        android:paddingStart="5dp"
+                        android:src="@drawable/r" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_marginLeft="110dp"
+                        android:fontFamily="@font/aclonica"
+                        android:text="NMAM institute of technology "
+                        android:textColor="@color/white"
+                        android:textSize="17dp" />
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="125dp"
+                        android:layout_marginTop="75dp"
+                        android:text="Nitte"
+                        android:textColor="@color/white"
+                        android:textSize="12dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="230dp"
+                        android:layout_marginTop="75dp"
+                        android:text="State Ranking: 20"
+                        android:textColor="@color/white"
+                        android:textSize="12dp" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="125dp"
+                        android:layout_marginTop="100dp"
+                        android:onClick="open20"
+                        android:text="College Website"
+                        android:textColor="#13C51A"
+                        android:textSize="13dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="230dp"
+                        android:layout_marginTop="100dp"
+                        android:onClick="more20"
+                        android:text="More Details"
+                        android:textColor="@color/colorRed"
+                        android:textSize="13dp" />
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="93dp"
+                        android:layout_marginLeft="100dp"
+                        android:layout_alignParentLeft="true"
+                        android:paddingStart="5dp"
+                        android:src="@drawable/ic_web" />
+
+                    <ImageView
+                        android:layout_width="18dp"
+                        android:layout_height="23dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="100dp"
+                        android:layout_marginTop="73dp"
+                        android:paddingStart="5dp"
+                        android:src="@drawable/ic_location" />
+
+
+                </RelativeLayout>
+
+
+
 
 
 
