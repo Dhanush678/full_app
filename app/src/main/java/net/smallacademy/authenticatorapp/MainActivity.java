@@ -62,6 +62,14 @@ public class MainActivity extends DrawerBaseActivity {
         phone = findViewById(R.id.profilePhone);
         fullName = findViewById(R.id.profileName);
         email    = findViewById(R.id.profileEmail);
+        ImageView backbtn =findViewById(R.id.back7);
+        backbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(),MainActivity2.class));
+                finish();
+            }
+        });
         resetPassLocal = findViewById(R.id.resetPasswordLocal);
 
         profileImage = findViewById(R.id.profileImage);

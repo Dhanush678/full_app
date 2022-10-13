@@ -115,6 +115,7 @@ public class aboutus extends AppCompatActivity {
                 myIntent.putExtra(Intent.EXTRA_SUBJECT,sub);
                 myIntent.putExtra(Intent.EXTRA_TEXT,body);
                 startActivity(Intent.createChooser(myIntent, "Share Using"));
+                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
             }
         });
 
@@ -128,6 +129,7 @@ public class aboutus extends AppCompatActivity {
                 myIntent.putExtra(Intent.EXTRA_SUBJECT,sub);
                 myIntent.putExtra(Intent.EXTRA_TEXT,body);
                 startActivity(Intent.createChooser(myIntent, "Share Using"));
+                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
 
             }
         });
@@ -139,6 +141,7 @@ public class aboutus extends AppCompatActivity {
             public void onClick(View v) {
                 Intent fin = new Intent(getApplicationContext(), MainActivity2.class);
                 startActivity(fin);
+                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
 
             }
         });

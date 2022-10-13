@@ -2,7 +2,9 @@ package net.smallacademy.authenticatorapp;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
 
+import android.Manifest;
 import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
@@ -48,6 +50,8 @@ public class EditProfile extends DrawerBaseActivity {
 
         setContentView(R.layout.activity_edit_profile);
         allocateActivityTitle("EditProfile");
+        ImageView backbtn=findViewById(R.id.back7);
+
 
         Intent data = getIntent();
         final String fullName = data.getStringExtra("fullName");
@@ -78,6 +82,14 @@ public class EditProfile extends DrawerBaseActivity {
             public void onClick(View v) {
                 Intent openGalleryIntent = new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
                 startActivityForResult(openGalleryIntent,1000);
+            }
+        });
+        backbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent =new Intent(getApplicationContext(),MainActivity2.class);
+                startActivity(intent);
+                finish();
             }
         });
         
@@ -144,7 +156,13 @@ public class EditProfile extends DrawerBaseActivity {
 
     }
 
+
+
     private void uploadImageToFirebase(Uri imageUri) {
+        ActivityCompat.requestPermissions(this,
+                new String[]{Manifest.permission.READ_EXTERNAL_STORAGE,
+                        Manifest.permission.MANAGE_EXTERNAL_STORAGE}, 1);
+
         // uplaod image to firebase storage
         final StorageReference fileRef = storageReference.child("users/"+fAuth.getCurrentUser().getUid()+"/profile.jpg");
         fileRef.putFile(imageUri).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {

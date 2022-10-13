@@ -3,15 +3,15 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/back31_"
+    android:background="@drawable/loki"
     tools:context=".mockquestions">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="@dimen/_40sdp"
-        android:background="#9D16D6">
+        android:background="@color/colorPrimaryDark">
 
         <TextView
             android:layout_width="wrap_content"
@@ -63,9 +63,11 @@
                 android:layout_marginTop="@dimen/_20sdp"
                 android:layout_marginEnd="@dimen/_7sdp"
                 android:layout_marginLeft="@dimen/_7sdp"
+                android:paddingBottom="15dp"
+
                 android:background="@drawable/btn_bg"
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/_100sdp">
+                android:layout_height="wrap_content">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -74,6 +76,8 @@
                     android:layout_marginRight="@dimen/_7sdp"
                     android:layout_marginTop="@dimen/_20sdp"
                     android:id="@+id/number"
+                    android:paddingBottom="15dp"
+
                     android:textColor="@color/black"
                     android:text="1)" />
 

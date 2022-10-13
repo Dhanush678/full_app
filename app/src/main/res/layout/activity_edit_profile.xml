@@ -4,12 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/back31_"
+    android:background="@drawable/loki"
     tools:context=".EditProfile">
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="?actionBarSize"
-        android:background="#833F51B5"
+        android:background="@color/colorPrimaryDark"
         tools:ignore="MissingConstraints">
 
         <ImageView
@@ -60,11 +60,11 @@
         android:layout_height="143dp"
         android:layout_marginTop="88dp"
         android:background="@drawable/btn_bg"
-        android:backgroundTint="@color/background"
+        android:backgroundTint="@color/colorWhite"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_avatar_svgrepo_com__1_" />
+        app:srcCompat="@drawable/stu" />
 
     <EditText
         android:id="@+id/profileEmailAddress"

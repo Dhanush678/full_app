@@ -23,6 +23,7 @@ public class DrawerBaseActivity extends AppCompatActivity implements NavigationV
 
     @Override
     public void setContentView(View view) {
+
         drawerLayout=(DrawerLayout) getLayoutInflater().inflate(R.layout.activity_drawer_base, null);
         FrameLayout container =drawerLayout.findViewById(R.id.activitycontainer);
         container.addView(view);

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/back31_"
+    android:background="@drawable/loki"
     tools:context=".subjects1">
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -15,7 +15,7 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="?actionBarSize"
-            android:background="#833F51B5">>
+            android:background="@color/colorPrimaryDark">>
 
             <ImageView
                 android:id="@+id/back12"

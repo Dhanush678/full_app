@@ -3,6 +3,57 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/drawable/animation.xml" value="0.116" />
+        <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/drawable/color1.xml" value="0.116" />
+        <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/drawable/color10.xml" value="0.165" />
+        <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/drawable/color2.xml" value="0.1" />
+        <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/drawable/color3.xml" value="0.1" />
+        <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/drawable/color4.xml" value="0.1" />
+        <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/drawable/color5.xml" value="0.165" />
+        <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/drawable/color6.xml" value="0.165" />
+        <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/drawable/color7.xml" value="0.165" />
+        <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/drawable/color8.xml" value="0.165" />
+        <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/drawable/color9.xml" value="0.165" />
+        <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/drawable/grad_1.xml" value="0.183" />
+        <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/drawable/ic_heart.xml" value="0.116" />
+        <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/drawable/side_nav_bar.xml" value="0.184" />
+        <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/layout/activity_aboutkcet2.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/layout/activity_aboutus.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/layout/activity_admissionprocess.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/layout/activity_college_list.xml" value="0.22" />
+        <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/layout/activity_details.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/layout/activity_drawer_base.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/layout/activity_edit_profile.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/layout/activity_instructions.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/layout/activity_intro.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/layout/activity_login.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/layout/activity_main.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/layout/activity_main2.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/layout/activity_mock2.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/layout/activity_mockquestions.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/layout/activity_mocksplash.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/layout/activity_mocksubjects.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/layout/activity_notification.xml" value="0.1" />
+        <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/layout/activity_predictor.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/layout/activity_prev.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/layout/activity_puc.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/layout/activity_rank_predict.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/layout/activity_register.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/layout/activity_required_documents.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/layout/activity_splash.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/layout/activity_subjects.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/layout/activity_subjects1.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/layout/activity_tryagainpage.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/layout/activity_videotopics.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/layout/activity_webview.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/layout/activity_webview1.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/layout/activity_wonactivity.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/layout/activity_youtube_player.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/layout/content_layout.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/layout/first_intro.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/layout/main_drawer_header.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/menu/bottom_nav_menu.xml" value="0.17447916666666666" />
+        <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/menu/navmenu.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/HP/Desktop/firebase-authentication-android/app/src/main/res/drawable/border.xml" value="0.151" />
         <entry key="..\:/Users/HP/Desktop/firebase-authentication-android/app/src/main/res/drawable/rectanle.xml" value="0.151" />
         <entry key="..\:/Users/HP/Desktop/firebase-authentication-android/app/src/main/res/layout/activity_college_list.xml" value="0.1308876811594203" />

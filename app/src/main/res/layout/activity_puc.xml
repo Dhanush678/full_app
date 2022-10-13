@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/back31_"
+    android:background="@drawable/loki"
     tools:context=".puc">
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -15,7 +15,7 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="?actionBarSize"
-            android:background="#833F51B5">>
+            android:background="@color/colorPrimaryDark">>
 
             <ImageView
                 android:id="@+id/back13"
@@ -42,34 +42,44 @@
 
 
         </RelativeLayout>
-
-        <Button
-            android:id="@+id/button_1"
-            android:layout_width="250dp"
+        <RelativeLayout
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="60dp"
-            android:layout_marginTop="30dp"
-            android:background="@drawable/btn_bg"
-            android:padding="15dp"
-            android:onClick="openactivity_t1"
-            android:text="First Year puc"
-            android:textSize="18sp"
-            app:backgroundTint="@color/colorWhite"
-            app:cornerRadius="800dp" />
+            android:layout_marginTop="130dp"
+            android:gravity="center">
+            <Button
+                android:id="@+id/button_1"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/btn_bg"
+                android:onClick="openactivity_t1"
 
-        <Button
-            android:id="@+id/button_2"
-            android:layout_width="250dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="60dp"
-            android:layout_marginTop="30dp"
-            android:background="@drawable/btn_bg"
-            android:padding="15dp"
-            android:onClick="openactivity_t2"
-            android:text="Second Year PUC"
-            android:textSize="18sp"
-            app:backgroundTint="@color/colorWhite"
-            app:cornerRadius="800dp" />
+                android:padding="15dp"
+                android:text="First Year puc"
+                android:textSize="18sp"
+                app:backgroundTint="@color/colorWhite"
+                app:cornerRadius="800dp" />
+
+            <Button
+                android:id="@+id/button_2"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="120dp"
+                android:background="@drawable/btn_bg"
+                android:padding="15dp"
+                android:onClick="openactivity_t2"
+                android:text="Second Year PUC"
+                android:textSize="18sp"
+                app:backgroundTint="@color/colorWhite"
+                app:cornerRadius="800dp" />
+
+        </RelativeLayout>
+
+
+
 
 
     </LinearLayout>

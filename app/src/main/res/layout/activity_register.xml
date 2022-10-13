@@ -4,37 +4,51 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/back31_"
+    android:background="@drawable/loki"
     tools:context=".Register">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="57dp"
+        app:layout_constraintBottom_toTopOf="@+id/fullName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="0dp"
+            android:background="@drawable/boy"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp">
+
+        </ImageView>
+
+    </RelativeLayout>
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/aclonica"
-        android:text="Get on Board"
+        android:text="Get on Board,Sign up"
         android:textColor="@color/white"
-        android:textSize="34sp"
+        android:textSize="23sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.058" />
+        app:layout_constraintVertical_bias="0.35" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:fontFamily="@font/aclonica"
-        android:text="Sign up"
-        android:textColor="#F7F7F8"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.05"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
 
     <EditText
         android:id="@+id/fullName"
@@ -44,13 +58,13 @@
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:background="@drawable/border"
-        android:drawablePadding="5dp"
         android:drawableStart="@drawable/ic_person"
+        android:drawablePadding="5dp"
         android:ems="10"
         android:fontFamily="@font/aclonica"
         android:hint="Full Name"
         android:inputType="textPersonName"
-        android:padding="15dp"
+        android:padding="10dp"
         android:textColor="#FFFFFF"
         android:textColorHint="#FFFFFF"
         android:textSize="14sp"
@@ -58,24 +72,24 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:layout_constraintVertical_bias="0.116" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.468" />
 
     <EditText
         android:id="@+id/Email"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:drawablePadding="5dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="10dp"
         android:layout_marginEnd="16dp"
         android:background="@drawable/border"
         android:drawableStart="@drawable/ic_email"
+        android:drawablePadding="5dp"
         android:ems="10"
         android:fontFamily="@font/aclonica"
         android:hint="Email"
         android:inputType="textEmailAddress"
-        android:padding="15dp"
+        android:padding="10dp"
         android:textColor="#FFFFFF"
         android:textColorHint="#FFFFFF"
         android:textSize="14sp"
@@ -88,16 +102,16 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:drawablePadding="5dp"
+        android:layout_marginTop="10dp"
         android:layout_marginEnd="16dp"
         android:background="@drawable/border"
         android:drawableStart="@drawable/ic_security"
+        android:drawablePadding="5dp"
         android:ems="10"
         android:fontFamily="@font/aclonica"
         android:hint="Password"
         android:inputType="textPassword"
-        android:padding="15dp"
+        android:padding="10dp"
         android:textColor="#FFFFFF"
         android:textColorHint="#FFFFFF"
         android:textSize="14sp"
@@ -110,16 +124,16 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:drawablePadding="5dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="10dp"
         android:layout_marginEnd="16dp"
         android:background="@drawable/border"
         android:drawableStart="@drawable/ic_baseline_local_phone_24"
+        android:drawablePadding="5dp"
         android:ems="10"
         android:fontFamily="@font/aclonica"
         android:hint="Phone"
         android:inputType="textPhonetic"
-        android:padding="15dp"
+        android:padding="10dp"
         android:textColor="#FFFFFF"
         android:textColorHint="#FFFFFF"
         android:textSize="14sp"
@@ -132,7 +146,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="16dp"
         android:background="@drawable/btn_bg"
         android:fontFamily="@font/aclonica"
@@ -146,8 +160,8 @@
         android:id="@+id/createText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/aclonica"
         android:layout_marginTop="16dp"
+        android:fontFamily="@font/aclonica"
         android:text="Already Registered ? Login Here"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
@@ -165,7 +179,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/createText"
-        app:layout_constraintVertical_bias="0.188" />
+        app:layout_constraintVertical_bias="0.733" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

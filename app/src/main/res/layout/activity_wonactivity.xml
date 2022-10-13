@@ -4,13 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/back31_"
+    android:background="@drawable/loki"
     tools:context=".wonactivity">
+    <nl.dionsegijn.konfetti.KonfettiView
+        android:id="@+id/viewKonfetti"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
 
 
     <RelativeLayout
         android:id="@+id/toolbar"
-        android:background="#9D16D6"
+        android:background="@color/colorWhite"
         android:layout_width="match_parent"
         android:layout_height="@dimen/_40sdp">
 
@@ -23,7 +29,7 @@
             android:layout_centerVertical="true"
             android:layout_marginRight="@dimen/_10sdp"
             android:text="EXIT"
-            android:textColor="@color/white"
+            android:textColor="@color/colorPrimaryDark"
             android:textSize="@dimen/_18sdp" />
 
 
@@ -113,6 +119,7 @@
             android:layout_marginEnd="20dp"
             android:layout_marginBottom="15dp"
             android:background="@drawable/winner" />
+
 
 
     </RelativeLayout>

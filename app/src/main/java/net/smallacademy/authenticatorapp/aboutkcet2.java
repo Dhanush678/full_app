@@ -29,6 +29,7 @@ public class aboutkcet2 extends AppCompatActivity {
             public void onClick(View v) {
                 Intent browser = new Intent(Intent.ACTION_VIEW, Uri.parse("https://Karresults.nic.in/"));
                 startActivity(browser);
+                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
             }
         });
         TextView admission = findViewById(R.id.admission);
@@ -37,6 +38,7 @@ public class aboutkcet2 extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), admissionprocess.class);
                 startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
             }
         });
         TextView kea_website = findViewById(R.id.kea_website);
@@ -45,6 +47,7 @@ public class aboutkcet2 extends AppCompatActivity {
             public void onClick(View v) {
                 Intent browser = new Intent(Intent.ACTION_VIEW, Uri.parse("https://cetonline.Karnataka.gov.in/kea/"));
                 startActivity(browser);
+                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
             }
         });
     }

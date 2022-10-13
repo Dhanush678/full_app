@@ -3,15 +3,15 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="#9C27B0"
+    android:background="@drawable/color4"
     android:orientation="vertical"
     android:padding="20dp">
 
     <ImageView
         android:layout_width="140dp"
         android:layout_height="130dp"
-
-        android:background="@drawable/ic_avatar_svgrepo_com__1_"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/stu"
         android:layout_gravity="center"
         android:baselineAligned="true">
 

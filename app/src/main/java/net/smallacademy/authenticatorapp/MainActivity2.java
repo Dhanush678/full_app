@@ -1,19 +1,27 @@
 package net.smallacademy.authenticatorapp;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.fragment.app.Fragment;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.graphics.drawable.AnimationDrawable;
+
 import android.os.Handler;
 import android.os.Looper;
 import android.util.Log;
 import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.etebarian.meowbottomnavigation.MeowBottomNavigation;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.firestore.DocumentReference;
@@ -32,6 +40,8 @@ import javax.annotation.Nullable;
 public class MainActivity2 extends DrawerBaseActivity {
     ActivityMain2Binding activityMain2Binding;
 
+
+
     private long pressedTime;
     FirebaseAuth fAuth;
     FirebaseFirestore fStore;
@@ -40,16 +50,25 @@ public class MainActivity2 extends DrawerBaseActivity {
     FirebaseUser user;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        // remove title
         super.onCreate(savedInstanceState);
         activityMain2Binding =ActivityMain2Binding.inflate( getLayoutInflater());
         setContentView(activityMain2Binding.getRoot());
         allocateActivityTitle("MainActivity2");
+        ConstraintLayout constraintLayout=findViewById(R.id.layoutMAIN);
+        AnimationDrawable animationDrawable=(AnimationDrawable) constraintLayout.getBackground();
+        animationDrawable.setEnterFadeDuration(3500);
+        animationDrawable.setExitFadeDuration(5500);
+        animationDrawable.start();
+
+
         final TextView textView=findViewById(R.id.welcome);
         fAuth = FirebaseAuth.getInstance();
         fStore = FirebaseFirestore.getInstance();
         storageReference = FirebaseStorage.getInstance().getReference();
         userId = fAuth.getCurrentUser().getUid();
         user = fAuth.getCurrentUser();
+
 
         DocumentReference documentReference = fStore.collection("users").document(userId);
         documentReference.addSnapshotListener(this, new EventListener<DocumentSnapshot>() {
@@ -70,7 +89,7 @@ public class MainActivity2 extends DrawerBaseActivity {
             public void onClick(View v) {
                 Intent intent12 = new Intent(getApplicationContext(), MainActivity.class);
                 startActivity(intent12);
-                finish();
+                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
             }
         });
 
@@ -79,6 +98,7 @@ public class MainActivity2 extends DrawerBaseActivity {
             @Override
             public void onClick(View v) {
                 Intent intent1 = new Intent(getApplicationContext(), prev.class);
+                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                 startActivity(intent1);
                 finish();
             }
@@ -91,6 +111,8 @@ public class MainActivity2 extends DrawerBaseActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), Rank_Predict.class);
                 startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+
 
             }
         });
@@ -100,7 +122,9 @@ public class MainActivity2 extends DrawerBaseActivity {
             @Override
             public void onClick(View v) {
                 Intent intent1 = new Intent(getApplicationContext(), Instructions.class);
+
                 startActivity(intent1);
+                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                 finish();
             }
         });
@@ -110,7 +134,9 @@ public class MainActivity2 extends DrawerBaseActivity {
             @Override
             public void onClick(View v) {
                 Intent intent1 = new Intent(getApplicationContext(), subjects1.class);
+
                 startActivity(intent1);
+                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                 finish();
             }
         });
@@ -120,7 +146,9 @@ public class MainActivity2 extends DrawerBaseActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), collegeList.class);
+
                 startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
             }
         });
         Button buttondoc = findViewById(R.id.d);
@@ -129,6 +157,8 @@ public class MainActivity2 extends DrawerBaseActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), aboutkcet2.class);
                 startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+
             }
         });
 
@@ -137,13 +167,16 @@ public class MainActivity2 extends DrawerBaseActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), mocksubjects.class);
+
                 startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
             }
         });
 
 
 
     }
+
 
     @Override
     public void onBackPressed() {
@@ -158,6 +191,7 @@ public class MainActivity2 extends DrawerBaseActivity {
         }
         pressedTime = System.currentTimeMillis();
     }
+
 
 }
 

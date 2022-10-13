@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@drawable/back31_"
+    android:background="@drawable/loki"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
@@ -44,7 +44,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.074"
-        app:srcCompat="@drawable/ic_avatar_svgrepo_com__1_" />
+        app:srcCompat="@drawable/stu" />
 
     <TextView
         android:id="@+id/profileName"
@@ -56,6 +56,8 @@
         android:layout_marginEnd="16dp"
         android:text="Your Name"
         android:textSize="16sp"
+        android:textColor="@color/white"
+
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView2"
@@ -69,6 +71,8 @@
         android:layout_marginTop="6dp"
         android:padding="7dp"
         android:layout_marginEnd="16dp"
+        android:textColor="@color/white"
+
         android:text="Your Email Address"
         android:textSize="16sp"
         android:textStyle="bold"
@@ -84,6 +88,8 @@
         android:padding="7dp"
         android:layout_marginTop="6dp"
         android:text="Phone Number"
+        android:textColor="@color/white"
+
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -97,6 +103,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="6dp"
         android:layout_marginEnd="8dp"
+
         android:text="Email Not Verfied !"
         android:textColor="#C2185B"
         android:textSize="20sp"
@@ -136,6 +143,8 @@
         android:layout_marginStart="8dp"
         android:layout_marginEnd="16dp"
         android:padding="7dp"
+        android:textColor="@color/white"
+
         android:text="Full Name"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView2"
@@ -149,6 +158,8 @@
         android:padding="7dp"
         android:layout_marginEnd="16dp"
         android:text="Email"
+        android:textColor="@color/white"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView3"
         app:layout_constraintTop_toTopOf="@+id/imageView3" />
@@ -191,6 +202,8 @@
         android:layout_marginStart="8dp"
         android:layout_marginEnd="16dp"
         android:padding="7dp"
+        android:textColor="@color/white"
+
         android:text="Phone"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView4"
