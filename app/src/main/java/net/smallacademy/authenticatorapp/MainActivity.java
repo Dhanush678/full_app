@@ -188,6 +188,9 @@ public class MainActivity extends DrawerBaseActivity {
                 i.putExtra("email",email.getText().toString());
                 i.putExtra("phone",phone.getText().toString());
                 startActivity(i);
+                                overridePendingTransition(R.anim.slide_up, R.anim.slide_down);
+
+
 //
 
             }

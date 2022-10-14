@@ -150,6 +150,8 @@ public class introActivity extends AppCompatActivity {
     private void launchHomeScreen() {
         intropref.setIsFirstTimeLaunch(false);
         startActivity(new Intent(getApplicationContext(),Register.class));
+        overridePendingTransition(R.anim.slide_up, R.anim.slide_down);
+
         finish();
     }
 }

@@ -19,6 +19,7 @@ public class prev extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent=new Intent(getApplicationContext(),MainActivity2.class);
                 startActivity(intent);
+
                 finish();
 
             }

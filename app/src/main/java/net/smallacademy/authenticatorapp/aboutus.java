@@ -36,12 +36,18 @@ public class aboutus extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(getOpenFacebookIntent());
+                    overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+
+
             }
         });
         faceBookTEXT.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(getOpenFacebookIntent());
+                    overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+
+
             }
         });
         instaTEXT.setOnClickListener(new View.OnClickListener() {
@@ -56,6 +62,9 @@ public class aboutus extends AppCompatActivity {
 
                 try {
                     startActivity(i);
+                        overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+
+
                 } catch (ActivityNotFoundException e) {
 
                     startActivity(new Intent(Intent.ACTION_VIEW,
@@ -78,6 +87,9 @@ public class aboutus extends AppCompatActivity {
 
                 try {
                     startActivity(i);
+                        overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+
+
                 } catch (ActivityNotFoundException e) {
 
                     startActivity(new Intent(Intent.ACTION_VIEW,
@@ -115,7 +127,8 @@ public class aboutus extends AppCompatActivity {
                 myIntent.putExtra(Intent.EXTRA_SUBJECT,sub);
                 myIntent.putExtra(Intent.EXTRA_TEXT,body);
                 startActivity(Intent.createChooser(myIntent, "Share Using"));
-                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+                    overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+
             }
         });
 
@@ -129,7 +142,8 @@ public class aboutus extends AppCompatActivity {
                 myIntent.putExtra(Intent.EXTRA_SUBJECT,sub);
                 myIntent.putExtra(Intent.EXTRA_TEXT,body);
                 startActivity(Intent.createChooser(myIntent, "Share Using"));
-                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+                    overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+
 
             }
         });
@@ -141,7 +155,8 @@ public class aboutus extends AppCompatActivity {
             public void onClick(View v) {
                 Intent fin = new Intent(getApplicationContext(), MainActivity2.class);
                 startActivity(fin);
-                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+                    overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+
 
             }
         });
@@ -163,10 +178,16 @@ public class aboutus extends AppCompatActivity {
             }
             intent = new Intent(Intent.ACTION_VIEW, Uri.parse("tg://resolve?domain=+xAWmPUgBE7NmODg9"));
             startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+
+
 
         } catch (PackageManager.NameNotFoundException e) {
             intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://t.me/+xAWmPUgBE7NmODg9"));
             startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+
+
         }
     }
     public Intent getOpenFacebookIntent() {

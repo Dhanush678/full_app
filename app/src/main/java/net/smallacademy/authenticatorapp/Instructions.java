@@ -19,6 +19,8 @@ public class Instructions extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent1 = new Intent(getApplicationContext(), MainActivity2.class);
                 startActivity(intent1);
+                overridePendingTransition(R.anim.slide_up, R.anim.slide_down);
+
                 finish();
             }
         });
@@ -27,11 +29,15 @@ public class Instructions extends AppCompatActivity {
     public void pressed(View view) {
         Intent intent=new Intent(Instructions.this,predictor.class);
         startActivity(intent);
+        overridePendingTransition(R.anim.slide_up, R.anim.slide_down);
+
     }
     @Override
     public void onBackPressed() {
         Intent intent=new Intent(getApplicationContext(),MainActivity2.class);
         startActivity(intent);
+        overridePendingTransition(R.anim.slide_up, R.anim.slide_down);
+
         finish();
 
     }

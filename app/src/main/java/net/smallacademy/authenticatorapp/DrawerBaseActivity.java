@@ -44,20 +44,30 @@ public class DrawerBaseActivity extends AppCompatActivity implements NavigationV
         switch (item.getItemId()){
             case R.id.acc:
                 startActivity(new Intent(getApplicationContext(),MainActivity.class));
-                overridePendingTransition(0,0);
+                                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+
+
                 break;
             case R.id.editAcc:
                 startActivity(new Intent(getApplicationContext(),EditProfile.class));
-                overridePendingTransition(0,0);
+                                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+
+
+
                 break;
             case R.id.Aboutus:
                 startActivity(new Intent(getApplicationContext(),aboutus.class));
-                overridePendingTransition(0,0);
+                                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+
+
                 break;
             case R.id.logout:
                 FirebaseAuth.getInstance().signOut();//logout
                 startActivity(new Intent(getApplicationContext(),Login.class));
-                overridePendingTransition(0,0);
+
+                                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+
+
                 finish();
                 break;
             case R.id.exit:

@@ -16,7 +16,10 @@ public class HelperActivity extends Activity {
             editor.putBoolean(prevStarted, Boolean.TRUE);
             editor.apply();
             Intent intent = new Intent(this,introActivity.class);
+
             startActivity(intent);
+            overridePendingTransition(R.anim.slide_up, R.anim.slide_down);
+
 
         } else {
             moveToSecondary();
@@ -31,6 +34,7 @@ public class HelperActivity extends Activity {
         // use an intent to travel from one activity to another.
         Intent intent = new Intent(this,Register.class);
         startActivity(intent);
+        overridePendingTransition(R.anim.slide_up, R.anim.slide_down);
     }
 
 }

@@ -140,7 +140,9 @@ public class MainActivity2 extends DrawerBaseActivity {
             public void onClick(View v) {
                 Intent intent12 = new Intent(getApplicationContext(), MainActivity.class);
                 startActivity(intent12);
-                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+                                                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+
+
             }
         });
 
@@ -149,8 +151,11 @@ public class MainActivity2 extends DrawerBaseActivity {
             @Override
             public void onClick(View v) {
                 Intent intent1 = new Intent(getApplicationContext(), prev.class);
-                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                 startActivity(intent1);
+                                                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+
+
+
                 finish();
             }
         });
@@ -162,7 +167,9 @@ public class MainActivity2 extends DrawerBaseActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), Rank_Predict.class);
                 startActivity(intent);
-                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+                                                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+
+
 
 
             }
@@ -175,7 +182,9 @@ public class MainActivity2 extends DrawerBaseActivity {
                 Intent intent1 = new Intent(getApplicationContext(), Instructions.class);
 
                 startActivity(intent1);
-                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+                                                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+
+
                 finish();
             }
         });
@@ -187,7 +196,9 @@ public class MainActivity2 extends DrawerBaseActivity {
                 Intent intent1 = new Intent(getApplicationContext(), subjects1.class);
 
                 startActivity(intent1);
-                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+                                                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+
+
                 finish();
             }
         });
@@ -199,7 +210,9 @@ public class MainActivity2 extends DrawerBaseActivity {
                 Intent intent = new Intent(getApplicationContext(), collegeList.class);
 
                 startActivity(intent);
-                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+                                                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+
+
             }
         });
         Button buttondoc = findViewById(R.id.d);
@@ -208,7 +221,9 @@ public class MainActivity2 extends DrawerBaseActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), aboutkcet2.class);
                 startActivity(intent);
-                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+                                                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+
+
 
             }
         });
@@ -220,7 +235,9 @@ public class MainActivity2 extends DrawerBaseActivity {
                 Intent intent = new Intent(getApplicationContext(), mocksubjects.class);
 
                 startActivity(intent);
-                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+                                                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+
+
             }
         });
 

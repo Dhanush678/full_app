@@ -51,6 +51,7 @@ public class mock2 extends AppCompatActivity {
         Intent intent = new Intent(this, mocksplash.class);
         intent.putExtra("pdf_url11",url1);
         startActivity(intent);
+
     }
 
 }

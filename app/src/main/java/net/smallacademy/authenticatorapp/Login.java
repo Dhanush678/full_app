@@ -76,6 +76,9 @@ public class Login extends AppCompatActivity {
                         if(task.isSuccessful()){
                             Toast.makeText(Login.this, "Logged in Successfully", Toast.LENGTH_SHORT).show();
                             startActivity(new Intent(getApplicationContext(),SplashActivity.class));
+                                            overridePendingTransition(R.anim.slide_up, R.anim.slide_down);
+
+
                         }else {
                             Toast.makeText(Login.this, "Error ! " + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
                             progressBar.setVisibility(View.GONE);
@@ -91,6 +94,9 @@ public class Login extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getApplicationContext(),Register.class));
+                overridePendingTransition(R.anim.slide_up, R.anim.slide_down);
+
+
             }
         });
 
