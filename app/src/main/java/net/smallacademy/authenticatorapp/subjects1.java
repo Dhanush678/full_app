@@ -3,14 +3,19 @@ package net.smallacademy.authenticatorapp;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.IntentFilter;
+import android.net.ConnectivityManager;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import net.smallacademy.authenticatorapp.utility.NetworkChangeList;
+
 public class subjects1 extends AppCompatActivity {
 
+    NetworkChangeList networkChangeList = new NetworkChangeList();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -54,5 +59,18 @@ public class subjects1 extends AppCompatActivity {
         startActivity(intent);
         finish();
 
+    }
+    @Override
+    protected void onStart() {
+        IntentFilter filter =new IntentFilter(ConnectivityManager.CONNECTIVITY_ACTION);
+        registerReceiver(networkChangeList,filter);
+
+        super.onStart();
+    }
+
+    @Override
+    protected void onStop() {
+        unregisterReceiver(networkChangeList);
+        super.onStop();
     }
 }

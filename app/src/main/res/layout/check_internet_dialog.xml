@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+    android:background="@drawable/animation"
+    android:gravity="center"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_disconnected"
+        android:background="#00ff0000">
+
+    </ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/aclonica"
+        android:text="OOPS!"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="30sp"
+
+        >
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/aclonica"
+        android:text="NO Internet Connection"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="20sp"
+        >
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/aclonica"
+        android:text="Please Check Your Connection"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="18sp">
+
+    </TextView>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnRetry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="50dp"
+        android:background="@drawable/btn_bg"
+        android:text="RETRY"
+        android:textSize="18sp"
+        android:fontFamily="@font/allerta"
+
+
+
+        />
+
+</LinearLayout>

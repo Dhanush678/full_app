@@ -3,6 +3,8 @@ package net.smallacademy.authenticatorapp;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.IntentFilter;
+import android.net.ConnectivityManager;
 import android.os.Bundle;
 import android.view.View;
 import android.webkit.WebResourceRequest;
@@ -13,10 +15,16 @@ import android.webkit.WebViewClient;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import net.smallacademy.authenticatorapp.utility.NetworkChangeList;
+
 import java.util.HashMap;
 import java.util.Map;
 
 public class predictor extends AppCompatActivity {
+    NetworkChangeList networkChangeList = new NetworkChangeList();
+
+
+
 
     private WebView webview;
     @Override
@@ -72,6 +80,19 @@ public class predictor extends AppCompatActivity {
         } else {
             super.onBackPressed();
         }
+    }
+    @Override
+    protected void onStart() {
+        IntentFilter filter =new IntentFilter(ConnectivityManager.CONNECTIVITY_ACTION);
+        registerReceiver(networkChangeList,filter);
+
+        super.onStart();
+    }
+
+    @Override
+    protected void onStop() {
+        unregisterReceiver(networkChangeList);
+        super.onStop();
     }
 
 }

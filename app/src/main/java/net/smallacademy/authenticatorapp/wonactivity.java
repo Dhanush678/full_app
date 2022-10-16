@@ -3,13 +3,17 @@ package net.smallacademy.authenticatorapp;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.graphics.Color;
+import android.net.ConnectivityManager;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.mikhaellopez.circularprogressbar.CircularProgressBar;
+
+import net.smallacademy.authenticatorapp.utility.NetworkChangeList;
 
 import java.security.cert.CertPathBuilder;
 
@@ -18,6 +22,8 @@ import nl.dionsegijn.konfetti.models.Shape;
 import nl.dionsegijn.konfetti.models.Size;
 
 public class wonactivity extends AppCompatActivity {
+    NetworkChangeList networkChangeList = new NetworkChangeList();
+
     private KonfettiView viewKonfetti;
 
     @Override
@@ -87,5 +93,18 @@ public class wonactivity extends AppCompatActivity {
     @Override
     public void onBackPressed() {
 
+    }
+    @Override
+    protected void onStart() {
+        IntentFilter filter =new IntentFilter(ConnectivityManager.CONNECTIVITY_ACTION);
+        registerReceiver(networkChangeList,filter);
+
+        super.onStart();
+    }
+
+    @Override
+    protected void onStop() {
+        unregisterReceiver(networkChangeList);
+        super.onStop();
     }
 }

@@ -1,6 +1,8 @@
 package net.smallacademy.authenticatorapp;
 
 import android.content.Intent;
+import android.content.IntentFilter;
+import android.net.ConnectivityManager;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Log;
@@ -24,10 +26,13 @@ import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.FirebaseFirestore;
 
+import net.smallacademy.authenticatorapp.utility.NetworkChangeList;
+
 import java.util.HashMap;
 import java.util.Map;
 
 public class Register extends AppCompatActivity {
+    NetworkChangeList networkChangeList = new NetworkChangeList();
     public static final String TAG = "TAG";
     EditText mFullName,mEmail,mPassword,mPhone;
     Button mRegisterBtn;
@@ -145,5 +150,20 @@ public class Register extends AppCompatActivity {
             }
         });
 
+
     }
+    @Override
+    protected void onStart() {
+        IntentFilter filter =new IntentFilter(ConnectivityManager.CONNECTIVITY_ACTION);
+        registerReceiver(networkChangeList,filter);
+
+        super.onStart();
+    }
+
+    @Override
+    protected void onStop() {
+        unregisterReceiver(networkChangeList);
+        super.onStop();
+    }
+
 }

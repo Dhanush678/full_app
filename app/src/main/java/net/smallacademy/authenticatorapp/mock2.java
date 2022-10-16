@@ -3,13 +3,18 @@ package net.smallacademy.authenticatorapp;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.IntentFilter;
+import android.net.ConnectivityManager;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import net.smallacademy.authenticatorapp.utility.NetworkChangeList;
+
 public class mock2 extends AppCompatActivity {
+    NetworkChangeList networkChangeList = new NetworkChangeList();
     Button button;
     TextView textView,score;
 
@@ -52,6 +57,19 @@ public class mock2 extends AppCompatActivity {
         intent.putExtra("pdf_url11",url1);
         startActivity(intent);
 
+    }
+    @Override
+    protected void onStart() {
+        IntentFilter filter =new IntentFilter(ConnectivityManager.CONNECTIVITY_ACTION);
+        registerReceiver(networkChangeList,filter);
+
+        super.onStart();
+    }
+
+    @Override
+    protected void onStop() {
+        unregisterReceiver(networkChangeList);
+        super.onStop();
     }
 
 }

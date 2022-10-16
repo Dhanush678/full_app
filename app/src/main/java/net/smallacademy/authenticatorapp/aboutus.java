@@ -5,7 +5,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.ActivityNotFoundException;
 import android.content.Context;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.content.pm.PackageManager;
+import android.net.ConnectivityManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
@@ -14,9 +16,13 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import net.smallacademy.authenticatorapp.utility.NetworkChangeList;
+
 import org.w3c.dom.Text;
 
 public class aboutus extends AppCompatActivity {
+    NetworkChangeList networkChangeList = new NetworkChangeList();
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -197,5 +203,18 @@ public class aboutus extends AppCompatActivity {
         } catch (Exception e) {
             return new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/profile.php?id=100086491630238"));
         }
+    }
+    @Override
+    protected void onStart() {
+        IntentFilter filter =new IntentFilter(ConnectivityManager.CONNECTIVITY_ACTION);
+        registerReceiver(networkChangeList,filter);
+
+        super.onStart();
+    }
+
+    @Override
+    protected void onStop() {
+        unregisterReceiver(networkChangeList);
+        super.onStop();
     }
 }

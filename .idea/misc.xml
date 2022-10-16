@@ -5,6 +5,7 @@
       <map>
         <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/drawable-200dpi/top.xml" value="0.159" />
         <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/drawable/animation.xml" value="0.116" />
+        <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/drawable/btn.xml" value="0.1" />
         <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/drawable/color1.xml" value="0.116" />
         <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/drawable/color10.xml" value="0.165" />
         <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/drawable/color2.xml" value="0.1" />
@@ -15,11 +16,25 @@
         <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/drawable/color7.xml" value="0.165" />
         <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/drawable/color8.xml" value="0.165" />
         <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/drawable/color9.xml" value="0.165" />
+        <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/drawable/dialogstyle.xml" value="0.1" />
         <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/drawable/grad_1.xml" value="0.183" />
+        <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/drawable/ic_airplane.xml" value="0.157" />
+        <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/drawable/ic_cloud_1.xml" value="0.157" />
+        <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/drawable/ic_cloud_2.xml" value="0.157" />
+        <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/drawable/ic_cloud_2_dark.xml" value="0.157" />
+        <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/drawable/ic_cloud_3.xml" value="0.157" />
+        <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/drawable/ic_cloud_3_dark.xml" value="0.157" />
+        <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/drawable/ic_disconnected.xml" value="0.157" />
+        <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/drawable/ic_email.xml" value="0.157" />
         <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/drawable/ic_heart.xml" value="0.116" />
+        <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/drawable/ic_mood_bad_black_46dp.xml" value="0.157" />
+        <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/drawable/ic_no_internet_no_bg.xml" value="0.157" />
         <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/drawable/input_bg.xml" value="0.159" />
         <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/drawable/side_nav_bar.xml" value="0.184" />
+        <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/drawable/snackbar_bg_1.xml" value="0.157" />
         <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/drawable/top.xml" value="0.159" />
+        <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/drawable/top_bottom_shade.xml" value="0.157" />
+        <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/drawable/top_bottom_shade_dark.xml" value="0.157" />
         <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/layout/activity_aboutkcet2.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/layout/activity_aboutus.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/layout/activity_admissionprocess.xml" value="0.17552083333333332" />
@@ -52,6 +67,7 @@
         <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/layout/activity_webview1.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/layout/activity_wonactivity.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/layout/activity_youtube_player.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/layout/check_internet_dialog.xml" value="0.13191296464188576" />
         <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/layout/content_layout.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/layout/first_intro.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/layout/main_drawer_header.xml" value="0.17552083333333332" />

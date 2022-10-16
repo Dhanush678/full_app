@@ -2,6 +2,8 @@ package net.smallacademy.authenticatorapp;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.IntentFilter;
+import android.net.ConnectivityManager;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
@@ -12,7 +14,11 @@ import android.widget.TextView;
 import android.text.InputFilter;
 import android.text.Spanned;
 
+import net.smallacademy.authenticatorapp.utility.NetworkChangeList;
+
 public class Rank_Predict extends AppCompatActivity {
+    NetworkChangeList networkChangeList = new NetworkChangeList();
+
 
     EditText editTextNumber3,editTextNumber5,editTextNumber6,editTextNumber7,editTextNumber8,editTextNumber9,editTextNumber10,editTextNumber11;
     Button button;
@@ -351,6 +357,19 @@ public class Rank_Predict extends AppCompatActivity {
 
 
 
+    }
+    @Override
+    protected void onStart() {
+        IntentFilter filter =new IntentFilter(ConnectivityManager.CONNECTIVITY_ACTION);
+        registerReceiver(networkChangeList,filter);
+
+        super.onStart();
+    }
+
+    @Override
+    protected void onStop() {
+        unregisterReceiver(networkChangeList);
+        super.onStop();
     }
 
 

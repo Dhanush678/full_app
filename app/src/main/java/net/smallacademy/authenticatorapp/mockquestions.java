@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
 import android.content.Intent;
+import android.content.IntentFilter;
+import android.net.ConnectivityManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
@@ -12,12 +14,15 @@ import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
+import net.smallacademy.authenticatorapp.utility.NetworkChangeList;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Timer;
 import java.util.TimerTask;
 
 public class mockquestions extends AppCompatActivity {
+    NetworkChangeList networkChangeList = new NetworkChangeList();
     ProgressBar pb;
     Button nxt_btn,clr_btn;
     int counter = 0;
@@ -523,5 +528,18 @@ public class mockquestions extends AppCompatActivity {
     @Override
     public void onBackPressed() {
 
+    }
+    @Override
+    protected void onStart() {
+        IntentFilter filter =new IntentFilter(ConnectivityManager.CONNECTIVITY_ACTION);
+        registerReceiver(networkChangeList,filter);
+
+        super.onStart();
+    }
+
+    @Override
+    protected void onStop() {
+        unregisterReceiver(networkChangeList);
+        super.onStop();
     }
 }

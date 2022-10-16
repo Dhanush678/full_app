@@ -3,6 +3,8 @@ package net.smallacademy.authenticatorapp;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.IntentFilter;
+import android.net.ConnectivityManager;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -10,7 +12,10 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import net.smallacademy.authenticatorapp.utility.NetworkChangeList;
+
 public class videotopics extends AppCompatActivity {
+    NetworkChangeList networkChangeList = new NetworkChangeList();
     TextView textView,buttone1,buttone2,buttone3,buttone4;
     TextView button1,button2,button3,button4,button5,button6,button7,button8,button9,button10,button11,button12,button13,button14,button15;
     @Override
@@ -933,5 +938,18 @@ public class videotopics extends AppCompatActivity {
             }
         });
 
+    }
+    @Override
+    protected void onStart() {
+        IntentFilter filter =new IntentFilter(ConnectivityManager.CONNECTIVITY_ACTION);
+        registerReceiver(networkChangeList,filter);
+
+        super.onStart();
+    }
+
+    @Override
+    protected void onStop() {
+        unregisterReceiver(networkChangeList);
+        super.onStop();
     }
 }

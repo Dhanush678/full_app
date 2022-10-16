@@ -8,6 +8,8 @@ import android.app.Activity;
 import android.content.ContentResolver;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.IntentFilter;
+import android.net.ConnectivityManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
@@ -36,10 +38,13 @@ import com.squareup.picasso.Picasso;
 
 import net.smallacademy.authenticatorapp.databinding.ActivityMain2Binding;
 import net.smallacademy.authenticatorapp.databinding.ActivityMainBinding;
+import net.smallacademy.authenticatorapp.utility.NetworkChangeList;
 
 import javax.annotation.Nullable;
 
 public class MainActivity extends DrawerBaseActivity {
+    NetworkChangeList networkChangeList = new NetworkChangeList();
+
     private static final int GALLERY_INTENT_CODE = 1023 ;
     TextView fullName,email,phone,verifyMsg;
     FirebaseAuth fAuth;
@@ -213,6 +218,19 @@ public class MainActivity extends DrawerBaseActivity {
         startActivity(intent);
         finish();
 
+    }
+    @Override
+    protected void onStart() {
+        IntentFilter filter =new IntentFilter(ConnectivityManager.CONNECTIVITY_ACTION);
+        registerReceiver(networkChangeList,filter);
+
+        super.onStart();
+    }
+
+    @Override
+    protected void onStop() {
+        unregisterReceiver(networkChangeList);
+        super.onStop();
     }
 
 

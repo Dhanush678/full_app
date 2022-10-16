@@ -11,7 +11,7 @@ public class HelperActivity extends Activity {
     protected void onResume() {
         super.onResume();
         SharedPreferences sharedpreferences = getSharedPreferences(getString(R.string.app_name), Context.MODE_PRIVATE);
-        if (!sharedpreferences.getBoolean(prevStarted, false)) {
+        if (!sharedpreferences.getBoolean(prevStarted, true)) {
             SharedPreferences.Editor editor = sharedpreferences.edit();
             editor.putBoolean(prevStarted, Boolean.TRUE);
             editor.apply();

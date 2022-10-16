@@ -8,8 +8,10 @@ import androidx.fragment.app.Fragment;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
+import android.net.ConnectivityManager;
 import android.os.Bundle;
 import android.graphics.drawable.AnimationDrawable;
 
@@ -41,10 +43,15 @@ import com.google.firebase.storage.StorageReference;
 
 
 import net.smallacademy.authenticatorapp.databinding.ActivityMain2Binding;
+import net.smallacademy.authenticatorapp.utility.NetworkChangeList;
 
 import javax.annotation.Nullable;
 
 public class MainActivity2 extends DrawerBaseActivity {
+
+
+    NetworkChangeList networkChangeList = new NetworkChangeList();
+
     BottomNavigationView nav;
 
     ActivityMain2Binding activityMain2Binding;
@@ -260,6 +267,18 @@ public class MainActivity2 extends DrawerBaseActivity {
         pressedTime = System.currentTimeMillis();
     }
 
+    @Override
+    protected void onStart() {
+        IntentFilter filter =new IntentFilter(ConnectivityManager.CONNECTIVITY_ACTION);
+        registerReceiver(networkChangeList,filter);
 
+        super.onStart();
+    }
+
+    @Override
+    protected void onStop() {
+        unregisterReceiver(networkChangeList);
+        super.onStop();
+    }
 }
 

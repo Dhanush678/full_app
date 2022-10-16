@@ -3,12 +3,18 @@ package net.smallacademy.authenticatorapp;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.IntentFilter;
+import android.net.ConnectivityManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
+import net.smallacademy.authenticatorapp.utility.NetworkChangeList;
+
 public class collegeList extends AppCompatActivity {
+    NetworkChangeList networkChangeList = new NetworkChangeList();
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -3141,6 +3147,21 @@ public class collegeList extends AppCompatActivity {
                         overridePendingTransition(R.anim.slide_up, R.anim.slide_down);
 
     }
+
+    @Override
+    protected void onStart() {
+        IntentFilter filter =new IntentFilter(ConnectivityManager.CONNECTIVITY_ACTION);
+        registerReceiver(networkChangeList,filter);
+
+        super.onStart();
+    }
+
+    @Override
+    protected void onStop() {
+        unregisterReceiver(networkChangeList);
+        super.onStop();
+    }
+
 
 
 }

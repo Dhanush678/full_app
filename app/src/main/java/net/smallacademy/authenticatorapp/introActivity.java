@@ -7,6 +7,8 @@ import androidx.viewpager.widget.ViewPager;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.IntentFilter;
+import android.net.ConnectivityManager;
 import android.os.Bundle;
 import android.text.Html;
 import android.view.LayoutInflater;
@@ -15,7 +17,11 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import net.smallacademy.authenticatorapp.utility.NetworkChangeList;
+
 public class introActivity extends AppCompatActivity {
+    NetworkChangeList networkChangeList = new NetworkChangeList();
+
     private TextView next;
     private ViewPager viewpager;
 
@@ -154,4 +160,18 @@ public class introActivity extends AppCompatActivity {
 
         finish();
     }
+    @Override
+    protected void onStart() {
+        IntentFilter filter =new IntentFilter(ConnectivityManager.CONNECTIVITY_ACTION);
+        registerReceiver(networkChangeList,filter);
+
+        super.onStart();
+    }
+
+    @Override
+    protected void onStop() {
+        unregisterReceiver(networkChangeList);
+        super.onStop();
+    }
+
 }

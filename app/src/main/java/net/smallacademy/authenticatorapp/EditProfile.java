@@ -7,6 +7,8 @@ import androidx.core.app.ActivityCompat;
 import android.Manifest;
 import android.app.Activity;
 import android.content.Intent;
+import android.content.IntentFilter;
+import android.net.ConnectivityManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
@@ -29,11 +31,15 @@ import com.google.firebase.storage.UploadTask;
 import com.squareup.picasso.Picasso;
 
 import net.smallacademy.authenticatorapp.databinding.ActivityEditProfileBinding;
+import net.smallacademy.authenticatorapp.utility.NetworkChangeList;
 
 import java.util.HashMap;
 import java.util.Map;
 
 public class EditProfile extends DrawerBaseActivity {
+    NetworkChangeList networkChangeList = new NetworkChangeList();
+
+
 
     public static final String TAG = "TAG";
     EditText profileFullName,profileEmail,profilePhone;
@@ -186,5 +192,18 @@ public class EditProfile extends DrawerBaseActivity {
             }
         });
 
+    }
+    @Override
+    protected void onStart() {
+        IntentFilter filter =new IntentFilter(ConnectivityManager.CONNECTIVITY_ACTION);
+        registerReceiver(networkChangeList,filter);
+
+        super.onStart();
+    }
+
+    @Override
+    protected void onStop() {
+        unregisterReceiver(networkChangeList);
+        super.onStop();
     }
 }

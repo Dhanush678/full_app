@@ -5,6 +5,7 @@ import android.net.Uri;
 import java.net.URI;
 
 public class Question {
+
     String question;
     Uri image;
     String optionA;
