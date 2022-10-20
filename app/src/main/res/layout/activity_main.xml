@@ -127,7 +127,7 @@
         android:id="@+id/resetPasswordLocal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        
+
         android:background="@drawable/btn_bg"
         android:text="Reset Password"
         app:layout_constraintBottom_toTopOf="@+id/button"

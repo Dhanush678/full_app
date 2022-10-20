@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/aclonica"
-        android:text=" Hello there,Welcome back"
+        android:text=" Hello there,"
         android:textColor="@color/colorWhite"
         android:textSize="27dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -21,9 +21,27 @@
         app:layout_constraintHorizontal_bias="0.008"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        android:paddingStart="10dp"
+        android:paddingTop="10dp"
         app:layout_constraintVertical_bias="0.376" />
 
 
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:paddingStart="10dp"
+        android:paddingTop="10dp"
+        android:text="Welcome Back"
+        android:textColor="@color/colorWhite"
+        android:textSize="27dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="0.244"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.452" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -58,7 +76,7 @@
 
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.686" />
+        app:layout_constraintVertical_bias="0.954" />
 
     <EditText
         android:id="@+id/password"
@@ -87,7 +105,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="48dp"
         android:layout_marginEnd="16dp"
         android:background="@drawable/btn_bg"
         android:fontFamily="@font/aclonica"
@@ -95,6 +113,7 @@
         android:text="Login"
         android:textSize="13sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/password" />
 
@@ -121,7 +140,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/createText"
-        app:layout_constraintVertical_bias="0.636" />
+        app:layout_constraintVertical_bias="0.679" />
 
     <TextView
         android:id="@+id/forgotPassword"

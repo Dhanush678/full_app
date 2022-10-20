@@ -18,6 +18,7 @@ public class intropref {
     }
     public void setIsFirstTimeLaunch(boolean firstTimeLaunch){
         editor.putBoolean(IS_FIRST_TIME_LAUNCH,firstTimeLaunch);
+
         editor.commit();
 
     }
