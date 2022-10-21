@@ -1,34 +1,24 @@
 package net.smallacademy.authenticatorapp;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.ActionBar;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.constraintlayout.widget.ConstraintLayout;
-import androidx.fragment.app.Fragment;
-
-import android.app.Activity;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.graphics.Color;
+import android.graphics.drawable.AnimationDrawable;
 import android.graphics.drawable.ColorDrawable;
 import android.net.ConnectivityManager;
 import android.os.Bundle;
-import android.graphics.drawable.AnimationDrawable;
-
-import android.os.Handler;
-import android.os.Looper;
 import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.etebarian.meowbottomnavigation.MeowBottomNavigation;
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.ActionBar;
+import androidx.constraintlayout.widget.ConstraintLayout;
+
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
 import com.google.firebase.auth.FirebaseAuth;
@@ -40,7 +30,6 @@ import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.FirebaseFirestoreException;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
-
 
 import net.smallacademy.authenticatorapp.databinding.ActivityMain2Binding;
 import net.smallacademy.authenticatorapp.utility.NetworkChangeList;
@@ -100,7 +89,7 @@ public class MainActivity2 extends DrawerBaseActivity {
                         finish();
                         break;
                     case R.id.person:
-                        startActivity(new Intent(getApplicationContext(),MainActivity.class));
+                        startActivity(new Intent(getApplicationContext(),ProfileActivity.class));
                         finish();
                         break;
                     case R.id.about:
@@ -145,7 +134,7 @@ public class MainActivity2 extends DrawerBaseActivity {
         colle.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent12 = new Intent(getApplicationContext(), MainActivity.class);
+                Intent intent12 = new Intent(getApplicationContext(), ProfileActivity.class);
                 startActivity(intent12);
                                                 overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
 

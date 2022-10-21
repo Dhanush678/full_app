@@ -241,7 +241,7 @@
                     app:layout_constraintHorizontal_bias="0.143"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:srcCompat="@drawable/ic_email" />
+                    app:srcCompat="@drawable/ic_baseline_email_24white" />
 
                 <TextView
                     android:id="@+id/txtView"

@@ -1,9 +1,5 @@
 package net.smallacademy.authenticatorapp;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.app.ActivityCompat;
-
 import android.Manifest;
 import android.app.Activity;
 import android.content.Intent;
@@ -17,7 +13,11 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.core.app.ActivityCompat;
 
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -30,7 +30,6 @@ import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
 import com.squareup.picasso.Picasso;
 
-import net.smallacademy.authenticatorapp.databinding.ActivityEditProfileBinding;
 import net.smallacademy.authenticatorapp.utility.NetworkChangeList;
 
 import java.util.HashMap;
@@ -38,9 +37,6 @@ import java.util.Map;
 
 public class EditProfile extends DrawerBaseActivity {
     NetworkChangeList networkChangeList = new NetworkChangeList();
-
-
-
     public static final String TAG = "TAG";
     EditText profileFullName,profileEmail,profilePhone;
     ImageView profileImageView;
@@ -53,10 +49,10 @@ public class EditProfile extends DrawerBaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         setContentView(R.layout.activity_edit_profile);
         allocateActivityTitle("EditProfile");
-        ImageView backbtn=findViewById(R.id.back7);
+        TextView backbtn=findViewById(R.id.back127);
+        profileImageView=findViewById(R.id.profileImage);
 
 
         Intent data = getIntent();
@@ -72,7 +68,7 @@ public class EditProfile extends DrawerBaseActivity {
         profileFullName = findViewById(R.id.profileFullName);
         profileEmail = findViewById(R.id.profileEmailAddress);
         profilePhone = findViewById(R.id.profilePhoneNo);
-        profileImageView = findViewById(R.id.profileImageView);
+
         saveBtn = findViewById(R.id.saveProfileInfo);
 
         StorageReference profileRef = storageReference.child("users/"+fAuth.getCurrentUser().getUid()+"/profile.jpg");
@@ -97,7 +93,7 @@ public class EditProfile extends DrawerBaseActivity {
             public void onClick(View view) {
                 Intent intent =new Intent(getApplicationContext(),MainActivity2.class);
                 startActivity(intent);
-                                overridePendingTransition(R.anim.slide_up, R.anim.slide_down);
+                                overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
 
                 finish();
             }
@@ -124,7 +120,7 @@ public class EditProfile extends DrawerBaseActivity {
                             @Override
                             public void onSuccess(Void aVoid) {
                                 Toast.makeText(EditProfile.this, "Profile Updated", Toast.LENGTH_SHORT).show();
-                                startActivity(new Intent(getApplicationContext(),MainActivity.class));
+                                startActivity(new Intent(getApplicationContext(),ProfileActivity.class));
                                 finish();
                             }
                         });
@@ -156,7 +152,7 @@ public class EditProfile extends DrawerBaseActivity {
             if(resultCode == Activity.RESULT_OK){
                 Uri imageUri = data.getData();
 
-                //profileImage.setImageURI(imageUri);
+
 
                 uploadImageToFirebase(imageUri);
 

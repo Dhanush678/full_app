@@ -33,6 +33,16 @@
     <color name="on_one">@color/colorWhite</color>
     <color name="on_two">@color/colorWhite</color>
     <color name="on_three">@color/colorWhite</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--colors for profile-->
+    <color name="profilePrimaryDark">#FF3B30</color>
+    <color name="profileAccentColor">#F7F7F7</color>
+    <color name="whiteTextColor">#fff</color>
+    <color name="profileBackground">#fff</color>
+    <color name="blackTextColor">#000</color>
+    <color name="profileEditTextColor">#707070</color>
     <array name="active">
         <item>@color/colorWhite</item>
         <item>@color/colorWhite</item>

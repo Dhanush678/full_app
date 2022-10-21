@@ -4,38 +4,67 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/loki"
+
     tools:context=".EditProfile">
-    <RelativeLayout
+
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="?actionBarSize"
-        android:background="@color/colorPrimaryDark"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout"
+        android:background="@drawable/color4"
         tools:ignore="MissingConstraints">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
 
         <ImageView
-            android:id="@+id/back7"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="15dp"
-            android:src="@drawable/ic_baseline_arrow_back_24" />
+            android:id="@+id/profileImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/stu" />
 
         <TextView
-            android:layout_width="329dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="63dp"
-            android:layout_marginEnd="19dp"
-            android:layout_marginBottom="15dp"
-            android:fontFamily="@font/aclonica"
-            android:gravity="center_vertical"
-            android:text="Edit profile"
-            android:textColor="#FFFFFF"
-            android:textSize="20sp"
-            android:textStyle="bold" />
+            android:textColor="@color/white"
 
-    </RelativeLayout>
+            android:text="KCET Complete guide"
+            android:textSize="28dp"
+            android:textStyle="bold"/>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="20dp"
+            android:background="@color/profileBackground">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/color4" />
+
+            <TextView
+                android:id="@+id/back127"
+                android:textColor="@color/white"
+
+                style="@style/profileStyledBackButton"
+                android:text="Back to\nHome">
+
+            </TextView>
+        </RelativeLayout>
+
+    </LinearLayout>
 
 
     <EditText
@@ -43,7 +72,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="84dp"
+        android:layout_marginTop="268dp"
         android:layout_marginEnd="16dp"
         android:ems="10"
         android:hint="Your Name"
@@ -52,25 +81,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/profileImageView" />
-
-    <ImageView
-        android:id="@+id/profileImageView"
-        android:layout_width="131dp"
-        android:layout_height="143dp"
-        android:layout_marginTop="88dp"
-        android:background="@drawable/btn_bg"
-        android:backgroundTint="@color/colorWhite"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/stu" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/profileEmailAddress"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="24dp"
         android:ems="10"
@@ -79,23 +95,21 @@
         android:padding="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/profileFullName"
         app:layout_constraintTop_toBottomOf="@+id/profileFullName" />
 
     <EditText
         android:id="@+id/profilePhoneNo"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="24dp"
+        android:layout_marginTop="24dp"
         android:ems="10"
         android:hint="Phone"
         android:inputType="phone"
         android:padding="10dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/profileEmailAddress"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/profileEmailAddress"
         app:layout_constraintTop_toBottomOf="@+id/profileEmailAddress" />
 
     <Button
@@ -103,8 +117,12 @@
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="52dp"
-        android:background="@drawable/btn_bg"
+
+        android:background="@drawable/loginbtn"
         android:text="Save"
+        android:textColor="@color/white"
+
+        android:radius="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.433"
