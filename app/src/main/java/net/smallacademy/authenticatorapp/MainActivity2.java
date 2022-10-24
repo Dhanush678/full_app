@@ -51,6 +51,7 @@ public class MainActivity2 extends DrawerBaseActivity {
     FirebaseAuth fAuth;
     FirebaseFirestore fStore;
     StorageReference storageReference;
+
     String userId,name;
     FirebaseUser user;
     @Override
@@ -108,6 +109,17 @@ public class MainActivity2 extends DrawerBaseActivity {
             }
         });
 
+        ImageView logout=findViewById(R.id.logout);
+        logout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                FirebaseAuth.getInstance().signOut();//logout
+                startActivity(new Intent(getApplicationContext(),Login.class));
+
+                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+
+            }
+        });
 
         final TextView textView=findViewById(R.id.welcome);
         fAuth = FirebaseAuth.getInstance();
@@ -115,6 +127,7 @@ public class MainActivity2 extends DrawerBaseActivity {
         storageReference = FirebaseStorage.getInstance().getReference();
         userId = fAuth.getCurrentUser().getUid();
         user = fAuth.getCurrentUser();
+
 
 
         DocumentReference documentReference = fStore.collection("users").document(userId);

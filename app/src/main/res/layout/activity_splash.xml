@@ -27,7 +27,9 @@
         android:layout_above="@id/txt_v"
         android:layout_centerInParent="true"
         android:elevation="8dp"
-        android:src="@drawable/img" />
+
+        android:src="@drawable/editedison"
+     />
 
 
 

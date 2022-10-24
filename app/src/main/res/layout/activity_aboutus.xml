@@ -36,7 +36,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="49dp"
         android:padding="15dp"
-        android:src="@drawable/aboutimage" />
+        android:src="@drawable/editedison" />
 
     <TextView
         android:layout_width="394dp"

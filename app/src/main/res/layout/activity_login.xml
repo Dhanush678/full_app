@@ -45,12 +45,18 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="match_parent"
-        android:layout_height="230dp"
-        android:layout_marginTop="4dp"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
         android:background="@drawable/dsmf"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="0dp"></ImageView>
+        app:layout_constraintVertical_bias="0.533">
+
+    </ImageView>
 
     <EditText
         android:id="@+id/Email"
@@ -107,7 +113,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="48dp"
         android:layout_marginEnd="16dp"
-        android:background="@drawable/btn_bg"
+        android:background="@drawable/ripple"
         android:fontFamily="@font/aclonica"
         android:padding="15dp"
         android:text="Login"

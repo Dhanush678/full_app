@@ -24,11 +24,6 @@
         <activity
             android:name=".HelperActivity"
             android:exported="true" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
 
 
         </activity>
@@ -105,8 +100,11 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".SplashActivity"
-            android:exported="false"
-            android:screenOrientation="portrait" />
+            android:exported="true"
+            android:screenOrientation="portrait" >
+
+
+        </activity>
         <activity
             android:name=".details"
             android:exported="false"
@@ -143,8 +141,16 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".Register"
-            android:exported="false"
-            android:screenOrientation="portrait" />
+            android:exported="true"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+
+        </activity>
         <activity
             android:name=".MainActivity"
             android:exported="false"

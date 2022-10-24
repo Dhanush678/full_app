@@ -43,8 +43,11 @@ public class EditProfile extends DrawerBaseActivity {
     Button saveBtn;
     FirebaseAuth fAuth;
     FirebaseFirestore fStore;
+    ImageView profile;
+
     FirebaseUser user;
     StorageReference storageReference;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -68,6 +71,7 @@ public class EditProfile extends DrawerBaseActivity {
         profileFullName = findViewById(R.id.profileFullName);
         profileEmail = findViewById(R.id.profileEmailAddress);
         profilePhone = findViewById(R.id.profilePhoneNo);
+        profile=findViewById(R.id.profile);
 
         saveBtn = findViewById(R.id.saveProfileInfo);
 
@@ -78,7 +82,7 @@ public class EditProfile extends DrawerBaseActivity {
                 Picasso.get().load(uri).into(profileImageView);
             }
         });
-        
+
         profileImageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -177,7 +181,16 @@ public class EditProfile extends DrawerBaseActivity {
                 fileRef.getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
                     @Override
                     public void onSuccess(Uri uri) {
-                        Picasso.get().load(uri).into(profileImageView);
+                        Picasso.get().load(uri).into(profile);
+                        profileImageView.setVisibility(View.INVISIBLE);
+
+                    }
+                });
+                fileRef.getDownloadUrl().addOnFailureListener(new OnFailureListener() {
+                    @Override
+                    public void onFailure(@NonNull Exception e) {
+                        Picasso.get().load(R.drawable.stu).into(profile);
+
                     }
                 });
             }

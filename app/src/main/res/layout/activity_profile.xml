@@ -47,7 +47,7 @@
 
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:src="@drawable/stu" />
+                        />
 
                     <TextView
                         android:layout_width="wrap_content"
