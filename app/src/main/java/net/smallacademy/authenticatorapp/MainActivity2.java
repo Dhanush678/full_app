@@ -97,6 +97,10 @@ public class MainActivity2 extends DrawerBaseActivity {
                         startActivity(new Intent(getApplicationContext(),aboutus.class));
                         finish();
                         break;
+                    case R.id.notification:
+                        startActivity(new Intent(getApplicationContext(),notification.class));
+                        finish();
+                        break;
 
 
                 }
@@ -142,6 +146,7 @@ public class MainActivity2 extends DrawerBaseActivity {
                 }
             }
         });
+
 
         ImageView colle = findViewById(R.id.person);
         colle.setOnClickListener(new View.OnClickListener() {
