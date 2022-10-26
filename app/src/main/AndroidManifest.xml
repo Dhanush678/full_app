@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="net.smallacademy.authenticatorapp" >
+    package="net.smallacademy.authenticatorapp">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-
-    <!--Declaring the required permissions-->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Declaring the required permissions -->
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.CAMERA" />
@@ -20,13 +18,13 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".recycler_notify"
+            android:exported="false" />
         <activity
             android:name=".HelperActivity"
-            android:exported="true" >
-
-
-        </activity>
+            android:exported="true"></activity>
         <activity
             android:name=".notification"
             android:exported="false" />
@@ -60,8 +58,6 @@
         <activity
             android:name=".aboutkcet2"
             android:exported="false" />
-
-
         <activity
             android:name=".introActivity"
             android:exported="false" />
@@ -101,10 +97,7 @@
         <activity
             android:name=".SplashActivity"
             android:exported="true"
-            android:screenOrientation="portrait" >
-
-
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name=".details"
             android:exported="false"
@@ -142,14 +135,12 @@
         <activity
             android:name=".Register"
             android:exported="true"
-            android:screenOrientation="portrait" >
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
-
         </activity>
         <activity
             android:name=".MainActivity"

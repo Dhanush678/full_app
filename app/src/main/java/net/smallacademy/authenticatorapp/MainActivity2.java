@@ -98,7 +98,7 @@ public class MainActivity2 extends DrawerBaseActivity {
                         finish();
                         break;
                     case R.id.notification:
-                        startActivity(new Intent(getApplicationContext(),notification.class));
+                        startActivity(new Intent(getApplicationContext(),recycler_notify.class));
                         finish();
                         break;
 
