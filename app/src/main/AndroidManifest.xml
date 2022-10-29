@@ -24,7 +24,14 @@
             android:exported="false" />
         <activity
             android:name=".HelperActivity"
-            android:exported="true"></activity>
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
         <activity
             android:name=".notification"
             android:exported="false" />
@@ -49,6 +56,10 @@
         <activity
             android:name=".mocksubjects"
             android:exported="false" />
+        <activity
+            android:name=".aboutkcet_view"
+            android:exported="false" />
+
         <activity
             android:name=".YoutubePlayer"
             android:exported="false" />
@@ -83,6 +94,10 @@
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
+            android:name=".videotopics2"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
             android:name=".subjects1"
             android:exported="false"
             android:screenOrientation="portrait" />
@@ -97,7 +112,9 @@
         <activity
             android:name=".SplashActivity"
             android:exported="true"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait">
+
+        </activity>
         <activity
             android:name=".details"
             android:exported="false"
@@ -134,13 +151,9 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".Register"
-            android:exported="true"
+            android:exported="false"
             android:screenOrientation="portrait">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".MainActivity"

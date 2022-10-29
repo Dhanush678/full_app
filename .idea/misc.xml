@@ -3,11 +3,49 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/HP/AndroidStudioProjects/full_app/app/src/main/res/drawable-xhdpi/ic_web.xml" value="0.1555" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/full_app/app/src/main/res/drawable/bottom.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/full_app/app/src/main/res/drawable/ic_web.xml" value="0.1555" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/full_app/app/src/main/res/layout/activity_aboutkcet2.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/full_app/app/src/main/res/layout/activity_aboutkcet_view.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/full_app/app/src/main/res/layout/activity_aboutus.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/full_app/app/src/main/res/layout/activity_admissionprocess.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/full_app/app/src/main/res/layout/activity_college_list.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/full_app/app/src/main/res/layout/activity_details.xml" value="0.1308876811594203" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/full_app/app/src/main/res/layout/activity_drawer_base.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/full_app/app/src/main/res/layout/activity_edit_profile.xml" value="0.42141863699582754" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/full_app/app/src/main/res/layout/activity_instructions.xml" value="0.1308876811594203" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/full_app/app/src/main/res/layout/activity_intro.xml" value="0.1308876811594203" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/full_app/app/src/main/res/layout/activity_login.xml" value="0.1308876811594203" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/full_app/app/src/main/res/layout/activity_main.xml" value="0.1308876811594203" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/full_app/app/src/main/res/layout/activity_main2.xml" value="0.4466666666666667" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/full_app/app/src/main/res/layout/activity_mock2.xml" value="0.1308876811594203" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/full_app/app/src/main/res/layout/activity_mockquestions.xml" value="0.1308876811594203" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/full_app/app/src/main/res/layout/activity_mocksplash.xml" value="0.1308876811594203" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/full_app/app/src/main/res/layout/activity_mocksubjects.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/full_app/app/src/main/res/layout/activity_notification.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/full_app/app/src/main/res/layout/activity_predictor.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/full_app/app/src/main/res/layout/activity_prev.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/full_app/app/src/main/res/layout/activity_profile.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/full_app/app/src/main/res/layout/activity_puc.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/full_app/app/src/main/res/layout/activity_rank_predict.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/full_app/app/src/main/res/layout/activity_recycler_notify.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/full_app/app/src/main/res/layout/activity_register.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/full_app/app/src/main/res/layout/activity_required_documents.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/full_app/app/src/main/res/layout/activity_splash.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/full_app/app/src/main/res/layout/activity_subjects.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/full_app/app/src/main/res/layout/activity_subjects1.xml" value="0.22" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/full_app/app/src/main/res/layout/activity_videotopics.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/full_app/app/src/main/res/layout/activity_videotopics2.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/full_app/app/src/main/res/layout/check_internet_dialog.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/full_app/app/src/main/res/layout/content_layout.xml" value="0.22" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/full_app/app/src/main/res/layout/content_profile.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/full_app/app/src/main/res/layout/helper.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/full_app/app/src/main/res/layout/main_drawer_header.xml" value="0.1" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/full_app/app/src/main/res/layout/person.xml" value="0.3333333333333333" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/full_app/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/full_app/app/src/main/res/menu/navmenu.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/full_app/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.108" />
         <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/drawable-200dpi/top.xml" value="0.159" />
         <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/drawable/animation.xml" value="0.116" />
         <entry key="..\:/Users/HP/Desktop/PROJECTS/AuthenticatorApp/app/src/main/res/drawable/btn.xml" value="0.1" />
@@ -244,7 +282,7 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

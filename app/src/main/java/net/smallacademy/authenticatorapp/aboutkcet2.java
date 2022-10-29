@@ -1,6 +1,7 @@
 package net.smallacademy.authenticatorapp;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 
 import android.content.Intent;
 import android.content.IntentFilter;
@@ -9,6 +10,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import net.smallacademy.authenticatorapp.utility.NetworkChangeList;
@@ -20,7 +22,17 @@ public class aboutkcet2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_aboutkcet2);
-        TextView application = findViewById(R.id.application);
+        ImageView back=findViewById(R.id.back5);
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(),MainActivity2.class));
+                overridePendingTransition(R.anim.slide_in_left,R.anim.slide_out_right);
+                finish();
+            }
+        });
+
+        CardView application = findViewById(R.id.application);
         application.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -30,7 +42,7 @@ public class aboutkcet2 extends AppCompatActivity {
 
             }
         });
-        TextView result = findViewById(R.id.result);
+        CardView result = findViewById(R.id.result);
         result.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -39,7 +51,7 @@ public class aboutkcet2 extends AppCompatActivity {
                 overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
             }
         });
-        TextView admission = findViewById(R.id.admission);
+        CardView admission = findViewById(R.id.admission);
         admission.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -48,7 +60,15 @@ public class aboutkcet2 extends AppCompatActivity {
                 overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
             }
         });
-        TextView kea_website = findViewById(R.id.kea_website);
+        CardView about = findViewById(R.id.about);
+        about.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+               startActivity(new Intent(getApplicationContext(),aboutkcet_view.class));
+                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+            }
+        });
+        CardView kea_website = findViewById(R.id.kea_website);
         kea_website.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

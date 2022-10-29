@@ -37,16 +37,19 @@
             <ImageView
                 android:id="@+id/profile"
                 android:layout_width="30dp"
+
                 android:layout_height="30dp"
-                android:src="@drawable/ic_baseline_add_24"
+
                 android:background="@drawable/btn"
                 android:backgroundTint="@color/back"
                 android:visibility="gone"
-                app:layout_constraintBottom_toBottomOf="parent"
+                android:src="@drawable/ic_baseline_add_24"
+
+                app:layout_constraintBottom_toBottomOf="@+id/profileImage"
                 app:layout_constraintEnd_toEndOf="@+id/profileImage"
                 app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="@+id/profileImage"
+                app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="1.0">
 
 

@@ -16,7 +16,7 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="?actionBarSize"
-            android:background="#E41430CC">>
+            android:background="@color/colorPrimary">>
 
             <ImageView
                 android:id="@+id/back6"

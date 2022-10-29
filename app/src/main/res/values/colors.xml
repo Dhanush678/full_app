@@ -36,6 +36,7 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorAccent">#FF4081</color>
 
+
     <!--colors for profile-->
     <color name="profilePrimaryDark">#FF3B30</color>
     <color name="profileAccentColor">#F7F7F7</color>
@@ -43,6 +44,9 @@
     <color name="profileBackground">#fff</color>
     <color name="blackTextColor">#000</color>
     <color name="profileEditTextColor">#707070</color>
+    <color name="cutoff">#E7FD04</color>
+    <color name="moredetails">#F7A23C</color>
+    <color name="collegewebsite">#21E8AC</color>
     <array name="active">
         <item>@color/colorWhite</item>
         <item>@color/colorWhite</item>

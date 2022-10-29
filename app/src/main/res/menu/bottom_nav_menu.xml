@@ -13,9 +13,6 @@
         android:id="@+id/about"
         android:title="About US"
         android:icon="@drawable/ic_about_us_svgrepo_com"/>
-    <item
-        android:id="@+id/notification"
-        android:title="Notification"
-        android:icon="@drawable/ic_baseline_notifications_24"/>
+
 
 </menu>

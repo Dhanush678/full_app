@@ -27,6 +27,7 @@ public class NetworkChangeList extends BroadcastReceiver {
             final AlertDialog dialog = builder.create();
             dialog.show();
             dialog.setCancelable(false);
+
             dialog.getWindow().setGravity(Gravity.CENTER);
 
             btnretry.setOnClickListener(new View.OnClickListener() {

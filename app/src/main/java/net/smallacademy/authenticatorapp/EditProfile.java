@@ -181,15 +181,15 @@ public class EditProfile extends DrawerBaseActivity {
                 fileRef.getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
                     @Override
                     public void onSuccess(Uri uri) {
-                        Picasso.get().load(uri).into(profile);
-                        profileImageView.setVisibility(View.INVISIBLE);
+                        Picasso.get().load(uri).into(profileImageView);
+                        profile.setVisibility(View.INVISIBLE);
 
                     }
                 });
                 fileRef.getDownloadUrl().addOnFailureListener(new OnFailureListener() {
                     @Override
                     public void onFailure(@NonNull Exception e) {
-                        Picasso.get().load(R.drawable.stu).into(profile);
+                        Picasso.get().load(R.drawable.stu).into(profileImageView);
 
                     }
                 });

@@ -1,6 +1,7 @@
 package net.smallacademy.authenticatorapp;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 
 import android.content.Intent;
 import android.content.IntentFilter;
@@ -29,7 +30,7 @@ public class subjects extends AppCompatActivity {
         });
 
         //Mathematics
-        Button button22 = findViewById(R.id.button22);
+        CardView button22 = findViewById(R.id.button22);
         button22.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -41,7 +42,7 @@ public class subjects extends AppCompatActivity {
         });
 
         //PHYSICS
-        Button button23 = findViewById(R.id.button23);
+        CardView button23 = findViewById(R.id.button23);
         button23.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -53,7 +54,7 @@ public class subjects extends AppCompatActivity {
         });
 
         //CHEMMISTRY
-        Button button24 = findViewById(R.id.button24);
+        CardView button24 = findViewById(R.id.button24);
         button24.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -65,7 +66,7 @@ public class subjects extends AppCompatActivity {
         });
 
         //BIOLOGY
-        Button button25 = findViewById(R.id.button25);
+        CardView button25 = findViewById(R.id.button25);
         button25.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

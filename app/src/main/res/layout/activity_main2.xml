@@ -33,7 +33,7 @@
                 android:layout_alignParentStart="true"
                 android:fontFamily="@font/alike_angular"
                 android:gravity="center_vertical"
-                android:text="Hey there!"
+                android:text="Hey there!,"
                 android:textColor="@color/colorWhite"
                 android:textSize="20sp"
                 android:textStyle="bold"
@@ -58,7 +58,6 @@
                 app:layout_constraintStart_toEndOf="@+id/textView13"
                 app:layout_constraintTop_toTopOf="@+id/textView13"
                 app:layout_constraintVertical_bias="0.0" />
-        </androidx.constraintlayout.widget.ConstraintLayout>
 
             <TextView
                 android:id="@+id/welcome"
@@ -71,14 +70,15 @@
                 android:text=""
                 android:textColor="@color/colorWhite"
                 android:textSize="20sp"
-                android:layout_marginStart="10dp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.039"
-                app:layout_constraintStart_toStartOf="@+id/textView13"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="1.0" />
+                app:layout_constraintHorizontal_bias="0.264"
+                app:layout_constraintStart_toEndOf="@+id/gifImageView"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
 
 
@@ -104,7 +104,7 @@
                     android:layout_marginTop="10dp"
                     android:layout_marginEnd="10dp"
                     android:layout_marginBottom="10dp"
-                    android:fontFamily="@font/alike_angular"
+                    android:fontFamily="@font/aclonica"
                     android:text="Categories"
                     android:textAllCaps="true"
                     android:textColor="@color/colorWhite"
@@ -147,7 +147,8 @@
                             android:padding="20dp"
 
                             android:textAllCaps="true"
-                            android:textColor="@color/colorWhite" />
+                            android:textColor="@color/colorWhite"
+                            tools:ignore="SpeakableTextPresentCheck" />
 
 
                     </RelativeLayout>
@@ -194,7 +195,8 @@
                             android:background="#00ff0000"
                             android:padding="20dp"
                             android:textAllCaps="true"
-                            android:textColor="@color/colorWhite" />
+                            android:textColor="@color/colorWhite"
+                            tools:ignore="SpeakableTextPresentCheck" />
 
 
                     </RelativeLayout>
@@ -241,7 +243,8 @@
                             android:background="#00ff0000"
                             android:padding="20dp"
                             android:textAllCaps="true"
-                            android:textColor="@color/colorWhite" />
+                            android:textColor="@color/colorWhite"
+                            tools:ignore="SpeakableTextPresentCheck" />
 
 
                     </RelativeLayout>
@@ -401,12 +404,19 @@
                             android:fontFamily="@font/capriola"
                             android:padding="10dp"
                             android:paddingStart="30dp"
-                            android:text="all about
+                            android:text="all about"
+                            android:textAllCaps="true"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="25sp" />
 
-
-
-
-kcet exam"
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/capriola"
+                            android:padding="10dp"
+                            android:layout_marginTop="28dp"
+                            android:paddingStart="30dp"
+                            android:text="kcet exam"
                             android:textAllCaps="true"
                             android:textColor="@color/colorWhite"
                             android:textSize="25sp" />

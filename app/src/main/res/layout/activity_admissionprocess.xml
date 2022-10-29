@@ -42,10 +42,8 @@
     </RelativeLayout>
 
     <RelativeLayout
-        android:id="@+id/relativeLayout2"
-        android:layout_width="match_parent"
-
-        android:layout_height="350dp"
+        android:layout_width="405dp"
+        android:layout_height="602dp"
         android:layout_marginBottom="220dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -54,79 +52,156 @@
         app:layout_constraintTop_toBottomOf="@+id/relativeLayout"
         app:layout_constraintVertical_bias="0.0">
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginStart="0dp"
-            android:layout_marginTop="11dp"
-            android:padding="15dp"
-            app:srcCompat="@drawable/ic_baseline_edit_24" />
 
-        <TextView
+        <androidx.cardview.widget.CardView
             android:id="@+id/schedule"
-            android:layout_width="329dp"
-            android:layout_height="55dp"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="53dp"
-            android:layout_marginEnd="19dp"
-            android:layout_marginBottom="284dp"
-            android:fontFamily="@font/aclonica"
-            android:gravity="center_vertical"
-            android:text="Document Verification Schedule"
-            android:textColor="#FFFFFF"
-            android:textSize="16sp" />
-
-        <ImageView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="161dp"
+            android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
-            android:layout_marginTop="76dp"
-            android:padding="15dp"
-            app:srcCompat="@drawable/ic_person_black_24dp" />
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="240dp"
+            android:layout_marginBottom="427dp"
+            android:drawableStart="@drawable/ic_web"
+            android:drawablePadding="15dp"
+            app:cardCornerRadius="20dp">
 
-        <TextView
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="496dp"
+
+                android:src="@drawable/docu"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="85dp"
+                android:fontFamily="@font/aclonica"
+                android:paddingStart="14dp"
+                android:text=" Document verification"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="13dp"
+                android:layout_marginTop="124dp"
+                android:fontFamily="@font/aclonica"
+                android:paddingStart="10dp"
+                android:text="Schedule"
+                android:textColor="@color/colorPrimary"
+                android:textSize="19sp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
             android:id="@+id/required_documents"
-            android:layout_width="329dp"
-            android:layout_height="55dp"
-            android:layout_alignParentStart="true"
+            android:layout_width="150dp"
+            android:layout_height="156dp"
+
             android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="54dp"
-            android:layout_marginEnd="18dp"
-            android:layout_marginBottom="218dp"
-            android:fontFamily="@font/aclonica"
-            android:gravity="center_vertical"
-            android:text="Required Documents"
-            android:textColor="#FFFFFF"
-            android:textSize="16sp" />
+            android:layout_marginStart="182dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="63dp"
+            android:drawableStart="@drawable/ic_web"
+            android:drawablePadding="15dp"
+            app:cardCornerRadius="20dp">
 
-        <ImageView
-            android:layout_width="60dp"
-            android:layout_height="55dp"
-            android:layout_alignParentTop="true"
-            android:layout_marginTop="140dp"
-            android:padding="15dp"
-            app:srcCompat="@drawable/ic_web" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="496dp"
 
-        <TextView
+                android:src="@drawable/requied"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="99dp"
+                android:fontFamily="@font/aclonica"
+                android:paddingStart="10dp"
+                android:text="Required "
+                android:textColor="@color/colorPrimary"
+                android:textSize="19sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="124dp"
+                android:fontFamily="@font/aclonica"
+                android:paddingStart="10dp"
+                android:text="Documents"
+                android:textColor="@color/colorPrimary"
+                android:textSize="19sp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
             android:id="@+id/official_notification"
-            android:layout_width="329dp"
-            android:layout_height="55dp"
+            android:layout_width="160dp"
+            android:layout_height="156dp"
             android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="54dp"
-            android:layout_marginEnd="18dp"
-            android:layout_marginBottom="152dp"
-            android:fontFamily="@font/aclonica"
-            android:gravity="center_vertical"
-            android:text="Download Official Notification"
-            android:textColor="#FFFFFF"
-            android:textSize="16sp" />
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="203dp"
+            android:layout_marginEnd="243dp"
+            android:layout_marginBottom="243dp"
+            android:drawableStart="@drawable/ic_web"
+            android:drawablePadding="15dp"
+            app:cardCornerRadius="20dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_alignParentBottom="true"
+
+
+                android:src="@drawable/kcetnot"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="80dp"
+                android:fontFamily="@font/aclonica"
+                android:paddingStart="10dp"
+                android:text="Download Official"
+                android:textColor="@color/colorPrimary"
+                android:textSize="19sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="124dp"
+                android:fontFamily="@font/aclonica"
+                android:paddingStart="10dp"
+                android:text="Notification"
+                android:textColor="@color/colorPrimary"
+                android:textSize="19sp" />
+        </androidx.cardview.widget.CardView>
+
+
+
+
 
     </RelativeLayout>
 
@@ -142,12 +217,12 @@
         android:fontFamily="@font/aclonica"
         android:gravity="center_vertical"
         android:text="NOTE :                                                                           Please Cross Verify Official Notification For Detailed Information and Instructions. "
-        android:textColor="#B80303"
+        android:textColor="@color/colorRed"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/relativeLayout2"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout"
         app:layout_constraintVertical_bias="0.923" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
